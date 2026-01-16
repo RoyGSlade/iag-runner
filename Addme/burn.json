@@ -1,0 +1,18 @@
+{
+  "school": "burn",
+  "powers": {
+    "ignite": {
+      "name": "Ignite",
+      "type": "active",
+      "focusCost": 4,
+      "cooldown": 1,
+      "effect": "poisoned",
+      "legality": {
+        "noise": 3,
+        "visibility": "bright",
+        "illegalityLevel": 4
+      },
+      "description": ""
+    }
+  }
+}

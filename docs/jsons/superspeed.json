@@ -1,0 +1,285 @@
+{
+  "school": "Superspeed",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "superspeed.agility": {
+      "name": "Agility",
+      "level": 1,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can’t be struck by attacks of opportunity."
+    },
+    "superspeed.time_dilation": {
+      "name": "Time Dilation",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "Until the start of your next turn",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "you perceive time slower. During this time, everyone except you moves in slow motion, giving you advantage on attack rolls and ability checks."
+    },
+    "superspeed.quick_reaction": {
+      "name": "Quick Reaction",
+      "level": 1,
+      "activationCost": "Reaction",
+      "duration": "1 round or 3 seconds",
+      "range": "Self",
+      "uses": "Your Powers in Superspeed/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can react to danger faster than normal. When you are attacked, you can increase your AR (Armor Rating) by +4."
+    },
+    "superspeed.faster_than_thought": {
+      "name": "Faster Than Thought",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "1 round or 3 seconds",
+      "range": "Self",
+      "uses": "Equal to Your Powers in Superspeed per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can increase your speed to the point where you can act faster than the mind can think. You can take two extra actions on your turn."
+    },
+    "superspeed.speed_slip": {
+      "name": "Speed Slip",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "1 Round or 3 seconds",
+      "range": "Self",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can move faster than the eye can see. On turns other than your own you are allowed 10 ft of movement."
+    },
+    "superspeed.per_day_quick_build": {
+      "name": "Per Day Quick Build",
+      "level": 2,
+      "activationCost": "During Downtime",
+      "duration": "Downtime",
+      "range": "Self",
+      "uses": "Once",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When you attempt to build new technology you always have Efficiency meaning you can roll twice during either downtime. If you use this ability on your project your costs for that day are doubled."
+    },
+    "superspeed.speed_healing": {
+      "name": "Speed Healing",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "Touch",
+      "uses": "twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can accelerate the healing process of an injured body, restoring 2 HP for every 10ft you moved this round. You must be able to touch the target."
+    },
+    "superspeed.speed_phase": {
+      "name": "Speed Phase",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Up to 1 minute",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your speed to phase out of existence. During this time you may move freely around the battlefield but you can not be detected by any creature."
+    },
+    "superspeed.momentum_transfer": {
+      "name": "Momentum Transfer",
+      "level": 3,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "Touch",
+      "uses": "Equal to the powers you have unlocked in Superspeed/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can cause the momentum of your speed to be transferred to your target, dealing 1d8 force damage for every 10ft you moved this round."
+    },
+    "superspeed.time_shield": {
+      "name": "Time Shield",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "1 round",
+      "range": "Self",
+      "uses": "twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create a temporal shield around yourself, making you immune to all damage. You lose all other action and reactions while this is active and can only use your movement"
+    },
+    "superspeed.time_bubble": {
+      "name": "Time Bubble",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "8 hours",
+      "range": "Self and Allies within 30 ft.",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create a temporal bubble around yourself and allies. While inside the bubble time outside of it does not move. All actions taken by those inside the bubble are unaffected by the outside world. You can use the time in the bubble to rest, prepare, or train. You cannot use this again after leaving the bubble for two days."
+    },
+    "superspeed.unstoppable_force": {
+      "name": "Unstoppable Force",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "1 round for every power you have in Superspeed/5",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your movement speed is increased by an additional 30ft, you may phase through any physical object. While not in combat, you have advantage on skill checks. Your AR (Armor Rating) gets a +4. After this ability has ended, you are unable to use any of your superpowers for a day."
+    },
+    "superspeed.sonic_assault": {
+      "name": "Sonic Assault",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "15 ft cone",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can accelerate the speed of your fists to create a sonic shockwave, dealing 4d8 damage in a 15ft cone."
+    },
+    "superspeed.speed_ripple": {
+      "name": "Speed Ripple",
+      "level": 4,
+      "activationCost": "3 Actions",
+      "duration": "N/A",
+      "range": "50 ft radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create a pulse of speed emanating from your body dealing your movement speed in damage to everything around you. You can no longer use your superpowers in Superspeed for 2 days."
+    },
+    "superspeed.time_copy": {
+      "name": "Time Copy",
+      "level": 4,
+      "activationCost": "2 Action",
+      "duration": "1 minute",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can manipulate time itself, allowing you to go back in time effectively copying yourself. The copy has no Superspeed powers but copies your character perfectly otherwise. They enter initiative after you and act as you would. You cannot give your copy any advice from the future. The copy only exists for 1 minute before they get corrected out of existence."
+    },
+    "superspeed.deflection": {
+      "name": "Deflection",
+      "level": 5,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now use your speed to deflect incoming attacks. If you are targeted for a ranged attack and it misses you, you may deflect the ranged attack back to the sender for half damage."
+    },
+    "superspeed.hasty_escape": {
+      "name": "Hasty Escape",
+      "level": 5,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "10 times your current movement range",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can collapse time, allowing you to move through time and space in the blink of an eye. You can move yourself and up to six allies within 20 ft of you to a location within range."
+    }
+  }
+}

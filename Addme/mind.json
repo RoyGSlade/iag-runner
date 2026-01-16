@@ -1,0 +1,29 @@
+{
+  "school": "mind",
+  "powers": {
+    "mind_blast": {
+      "name": "Mind Blast",
+      "type": "active",
+      "focusCost": 5,
+      "cooldown": 2,
+      "effect": {
+        "id": "stunned",
+        "scalePerLevel": 1
+      },
+      "legality": {
+        "noise": 0,
+        "visibility": "mental",
+        "illegalityLevel": 3
+      },
+      "description": ""
+    },
+    "mental_shield": {
+      "name": "Mental Shield",
+      "type": "passive",
+      "effect": {
+        "id": "energized"
+      },
+      "description": ""
+    }
+  }
+}

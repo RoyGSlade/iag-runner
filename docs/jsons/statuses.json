@@ -1,0 +1,67 @@
+{
+  "stunned": {
+    "description": "You lose an action and cannot act effectively.",
+    "duration": 1,
+    "modifiers": { "actions": -1 }
+  },
+  "poisoned": {
+    "description": "Toxins weaken you, reducing health regeneration.",
+    "duration": 3,
+    "modifiers": { "hpRegen": -1 }
+  },
+  "energized": {
+    "description": "Adrenaline surges granting you an extra action.",
+    "duration": 1,
+    "modifiers": { "actions": 1 }
+  },
+  "angry": {
+    "description": "Rage clouds your judgment, slowing deliberate actions.",
+    "duration": 1,
+    "modifiers": { "actions": -1 }
+  },
+  "bleed": {
+    "description": "Open wounds cause you to lose health over time.",
+    "duration": 3,
+    "modifiers": { "hpRegen": -1 }
+  },
+  "calm": {
+    "description": "Steady nerves restore a bit of vitality each round.",
+    "duration": 1,
+    "modifiers": { "hpRegen": 1 }
+  },
+  "cold": {
+    "description": "Chilled air numbs reflexes and hampers reactions.",
+    "duration": 3,
+    "modifiers": { "reactions": -1 }
+  },
+  "concentration": {
+    "description": "Maintaining focus to sustain a power; losing focus ends the effect.",
+    "duration": 0,
+    "modifiers": {}
+  },
+  "confused": {
+    "description": "Disoriented and uncertain, making it hard to act.",
+    "duration": 1,
+    "modifiers": { "actions": -1 }
+  },
+  "drowsy": {
+    "description": "Sleepiness weighs you down, reducing your effectiveness.",
+    "duration": 3,
+    "modifiers": { "actions": -1 }
+  },
+  "hidden": {
+    "description": "Obscured from view, harder for enemies to target you.",
+    "duration": 1,
+    "modifiers": {}
+  },
+  "ignited": {
+    "description": "You are ablaze, taking ongoing thermal damage.",
+    "duration": 3,
+    "modifiers": { "hpRegen": -1 }
+  },
+  "injured": {
+    "description": "Sustained harm slows your movements and actions.",
+    "duration": 3,
+    "modifiers": { "actions": -1 }
+  }
+}

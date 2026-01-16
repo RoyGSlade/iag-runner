@@ -1,0 +1,269 @@
+{
+  "school": "Teleportation",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "teleportation.tightrope": {
+      "name": "Tightrope",
+      "level": 1,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You have advantage on any dexterity rolls involving movement, height, ledges, etc. This includes being hit by the Hindered Called shot or Knock Called Strike."
+    },
+    "teleportation.now_you_see_me": {
+      "name": "Now You See Me",
+      "level": 1,
+      "activationCost": "1 Action or 3 seconds.",
+      "duration": "N/A",
+      "range": "Blink",
+      "uses": "Equal to the Powers you have in Teleportation per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now teleport two targets you can touch along with yourself using Blink. If used on none willing targets make a contested roll using a d20 + their Dexterity vs. a d20 + Your Dexterity. This takes an action instead of Movement."
+    },
+    "teleportation.meld": {
+      "name": "Meld",
+      "level": 1,
+      "activationCost": "1 Action to Activate or Deactivate",
+      "duration": "1 minute or until deactivated",
+      "range": "Self",
+      "uses": "3 times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can phase through objects making it possible to pass through walls. You may also stay inside of an object but cannot breathe while doing so. You cannot use items or weapons while inside of an object."
+    },
+    "teleportation.vanish": {
+      "name": "Vanish",
+      "level": 1,
+      "activationCost": "1 Action/Reaction after Blink is used or 3 seconds",
+      "duration": "Until you use another power or any action/reaction",
+      "range": "Self",
+      "uses": "3 times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "After using Blink you turn nearly all the way invisible, giving yourself the Hidden status."
+    },
+    "teleportation.catlike": {
+      "name": "Catlike",
+      "level": 2,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When falling from less than 30 ft you will always land on your feet and when being knocked prone you may make a Dexterity challenge roll against their To Hit, if you succeed you tumble back to your feet 5 ft away."
+    },
+    "teleportation.meshing": {
+      "name": "Meshing",
+      "level": 2,
+      "activationCost": "Reaction after using Blink or Now You See Me",
+      "duration": "Instant",
+      "range": "Within 5 ft behind an enemy",
+      "uses": "2 times per day Now you Don’t Effect: After teleporting within 5 ft behind an enemy, you can attack them without using an action and do not take the -5 to Called Shot or Called Strike on that enemy that turn. Activation Cost: 1 Action Duration: Instant Range: Within 5 ft of target adjacent to an object Uses: 2 times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "If you have Meld you may now shove a target within 5 ft of you into an object adjacent to them using contesting Constitution Rolls. If successful they start to suffocate every round or three seconds they are in the object they take compacting damage starting at 1 damage the first turn and then adding +1 damage every turn after for as long as they are stuck in the object. You may use this ability to pull them out of the object as well."
+    },
+    "teleportation.displace": {
+      "name": "Displace",
+      "level": 3,
+      "activationCost": "1 Action (Combat) At Will (Non- Combat)",
+      "duration": "1 round or 3 seconds",
+      "range": "Within range of your Blink",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now sustain small portals for a very short amount of time allowing you to stick your hand and whatever you can hold in that hand through the portal to perform 1 action. The other end of the portal can only be placed in an area you can see within range of your Blink power. This takes an action to use in combat and the portal only lasts 3 seconds."
+    },
+    "teleportation.sonar": {
+      "name": "Sonar",
+      "level": 3,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Touch",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When you close your eyes and place your hands on the wall, floor, or ceiling you can see all solid objects in your current room and the room on the other side of the wall, floor, or ceiling you are touching. This requires concentration to use in combat."
+    },
+    "teleportation.oscillation": {
+      "name": "Oscillation",
+      "level": 3,
+      "activationCost": "2 Actions",
+      "duration": "Concentration",
+      "range": "Self",
+      "uses": "twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You create two images of yourself next to you, confusing anyone who targets you. You gain a +7 to your AR (Armor Rating) and when someone misses an attack against you they gain the Confused status at level 1."
+    },
+    "teleportation.long_jump": {
+      "name": "Long Jump",
+      "level": 3,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "The movement of your Blink ability increases by 5ft for every power in Teleportation you have unlocked."
+    },
+    "teleportation.bungee": {
+      "name": "Bungee",
+      "level": 4,
+      "activationCost": "1 Action (Combat) At Will (Non- Combat)",
+      "duration": "Instant",
+      "range": "Distance of last Teleportation",
+      "uses": "Powers you have in Teleportation/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Within 6 seconds or 2 rounds of teleporting, you may teleport back to where you were standing before you teleported. This only recalls your most recent teleport."
+    },
+    "teleportation.melds_uses_phase": {
+      "name": "Melds Uses Phase",
+      "level": 4,
+      "activationCost": "Reaction",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "uses",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "If you have Meld, you can use it quickly enough to be more effective in combat. You can now activate Meld as a reaction. Ballistic, Kinetic, and Vibro weapons pass through you making you immune to those types of weapons while Meld is active. You also increase your AR (Armor Rating) by +1 per power you have unlocked in teleportation/3."
+    },
+    "teleportation.pass_me_that": {
+      "name": "Pass Me That",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "Distance you can travel with Blink",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can teleport small inanimate objects you can see without touching them. You can use this to help allies retrieve items or place small traps. If you have Meshing, you can teleport the object inside of someone causing 2d8 of Damage ignoring Armor Points."
+    },
+    "teleportation.jumper": {
+      "name": "Jumper",
+      "level": 4,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "Planet-wide",
+      "uses": "Once to go somewhere and once to return",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may teleport anywhere on a planet as long as you have an image and idea or name of where you are going. This cannot be used in combat."
+    },
+    "teleportation.take_me_there": {
+      "name": "Take Me There",
+      "level": 4,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "1 mile",
+      "uses": "Equal to your Dexterity per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can teleport yourself and a number of willing targets and objects equal to your powers unlocked in Teleportation/2 up to a mile. This cannot be used in combat."
+    },
+    "teleportation.here": {
+      "name": "Here",
+      "level": 5,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "N/A",
+      "uses": "Once every other day Get us out of",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can spend all your powers to teleport you and your allies, including a ship or vessel of any size, into a different plane. This will be an ethereal plane. You can see the material plane but you cannot interact with it. You and your allies do not belong in the material plane, as such after the first day there you will begin to suffer random sicknesses until you return to the material plane. You can use this power to return to the material plane once you recover your powers. All of your super powers are depleted for a day. This cannot be used in combat. This can be used in ship combat."
+    }
+  }
+}

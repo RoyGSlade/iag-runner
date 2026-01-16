@@ -1,0 +1,22 @@
+[
+  {
+    "type": "new_hook",
+    "text": "A fresh lead appears on the local channels."
+  },
+  {
+    "type": "messenger_arrives",
+    "text": "A courier steps in with an urgent message."
+  },
+  {
+    "type": "rumor",
+    "text": "A rumor spreads through the crowd."
+  },
+  {
+    "type": "ambush",
+    "text": "A threat emerges from the shadows."
+  },
+  {
+    "type": "calm_moment",
+    "text": "A quiet moment gives you space to breathe."
+  }
+]

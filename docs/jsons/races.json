@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Android",
+    "movement": "40ft",
+    "vision": "Night vision and superior vision",
+    "resistance": "Don't require food or air, but must charge every 17 hours or they will power down",
+    "age": {
+      "adult": 5,
+      "max": 150
+    },
+    "attributeBonus": {
+      "intelligence": 2
+    },
+    "skillChoice": [
+      "Medical",
+      "Mechanics",
+      "Science",
+      "Technology"
+    ],
+    "description": "Androids are synthetic beings created by humans to solve complex problems. Over time, they develop their own personalities and independence. They require no sustenance but must recharge regularly."
+  },
+  {
+    "name": "Human",
+    "movement": "30ft",
+    "vision": "Normal 20/20 vision",
+    "resistance": "Can survive unprotected in space for 3 rounds",
+    "age": {
+      "adult": 18,
+      "max": 80
+    },
+    "attributeBonus": {
+      "choice": 2,
+      "count": 1
+    },
+    "skillChoice": [
+      "Medical",
+      "Mechanics",
+      "Science",
+      "Technology"
+    ],
+    "description": "Humans are adaptive and resilient, with a history of innovation and survival. They’ve evolved to survive briefly in the vacuum of space and are known for their versatility and creativity."
+  },
+  {
+    "name": "Kilmerians",
+    "movement": "45ft",
+    "vision": "Dark Vision",
+    "resistance": "Toxic Fumes",
+    "age": {
+      "adult": 20,
+      "max": 140
+    },
+    "attributeBonus": {
+      "constitution": 2
+    },
+    "skillChoice": [
+      "Operator",
+      "Unarmed",
+      "Melee",
+      "Athlete"
+    ],
+    "description": "Kilmerians are muscular, resilient warriors from Titan. They are deeply tied to their traditions, often serve as mercenaries, and thrive in harsh environments thanks to their physical endurance."
+  },
+  {
+    "name": "Saronians",
+    "movement": "30ft",
+    "vision": "Normal 20/20 vision",
+    "resistance": "Cold",
+    "age": {
+      "adult": 100,
+      "max": 500
+    },
+    "attributeBonus": {
+      "wisdom": 2
+    },
+    "skillChoice": [
+      "Operator",
+      "Unarmed",
+      "Melee",
+      "Athlete"
+    ],
+    "special": "Can speak telepathically",
+    "description": "Saronians are ancient, empathetic, and flexible beings with vast knowledge and wisdom. With telepathic abilities and access to advanced technology, they are respected for intellect and emotional insight."
+  }
+]

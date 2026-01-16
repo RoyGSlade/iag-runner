@@ -1,0 +1,269 @@
+{
+  "school": "Sherlock",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "sherlock.scanning_gaze": {
+      "name": "Scanning Gaze",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "N/A",
+      "range": "20 ft radius around you",
+      "uses": "Equal to every power you have in Sherlock/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can scan an area to detect hidden items, tracks, and other tiny details."
+    },
+    "sherlock.steel_trap": {
+      "name": "Steel Trap",
+      "level": 1,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When succeeding on a history or perception check you gain 2 successes instead of 1."
+    },
+    "sherlock.spatial_reasoning": {
+      "name": "Spatial Reasoning",
+      "level": 1,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You have advantage on any Intelligence checks made in regards to terrain, mapping, or construction."
+    },
+    "sherlock.tactical_insight": {
+      "name": "Tactical Insight",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "3 rounds/9 seconds",
+      "range": "N/A",
+      "uses": "Equal to your Powers in Sherlock/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You gain advantage on any Unarmed Combat rolls made in the next three rounds of combat."
+    },
+    "sherlock.understanding_fear": {
+      "name": "Understanding Fear",
+      "level": 2,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When using Speech to intimidate someone you gain Advantage. If you would already have Advantage, you may add an additional +5 to the roll instead."
+    },
+    "sherlock.mind_palace": {
+      "name": "Mind Palace",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "Sight",
+      "uses": "Twice per day Sizing you up Effect: You can find the weakness of a target you can see. If the target has no true weakness, you and an ally of your choice gain Advantage on attacks against the target. Activation Cost: 1 Action (Combat) At Will (Non-Combat) Duration: 2 hours Range: Self Uses: Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When you are in pain or find yourself in a position that seems dire, you can escape into your mind and remove one of the following statuses: Confused, Angry, Stun, Drowsy, or Injured from yourself and you cannot gain that status for 2 hours."
+    },
+    "sherlock.analytic_process": {
+      "name": "Analytic Process",
+      "level": 3,
+      "activationCost": "At Will",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may prepare a condition for an enemy. Saving an action. If the condition is met, then you are allowed to act on the condition using your saved action. You can use an improvised weapon of your choice for this condition. These conditions may be related to environmental factors or to the enemy’s behavior."
+    },
+    "sherlock.nerve": {
+      "name": "Nerve",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "20 Rounds/1 minute",
+      "range": "Self",
+      "uses": "Once per day A lot of",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can calm your nerves with superhuman discipline and disregard for pain. You have Advantage on all Constitution or Dexterity Challenges, Checks, and Opposed rolls that stop you from gaining a negative status or damage. You also become immune to the Confused status."
+    },
+    "sherlock.strategist": {
+      "name": "Strategist",
+      "level": 3,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "If you’ve assisted in the planning of an operation you may give Advantage on three rolls of your choice made by your party."
+    },
+    "sherlock.catch_me_if_you_can": {
+      "name": "Catch Me If You Can",
+      "level": 3,
+      "activationCost": "1 Reaction",
+      "duration": "1 round/3 seconds",
+      "range": "20 ft",
+      "uses": "Twice per combat encounter",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can choose up to two targets. Any attacks from those targets have disadvantage against you."
+    },
+    "sherlock.adaptive_thinking": {
+      "name": "Adaptive Thinking",
+      "level": 4,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When gaining this Power you choose a skill to always have Advantage with. Any success with this skill gives you two successes instead of one."
+    },
+    "sherlock.determined_training": {
+      "name": "Determined Training",
+      "level": 4,
+      "activationCost": "During Downtime",
+      "duration": "Downtime",
+      "range": "Self",
+      "uses": "Once every two sessions",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "During down time you can give yourself the successes needed to reach the next level in a skill of your choosing."
+    },
+    "sherlock.genius": {
+      "name": "Genius",
+      "level": 4,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You have Advantage on all Intelligence based skills."
+    },
+    "sherlock.dead_men": {
+      "name": "Dead Men",
+      "level": 4,
+      "activationCost": "At Will",
+      "duration": "10 minutes",
+      "range": "Sight",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can analyze the history of an object, creature, or area. The creature cannot be Intelligent and Sentient. You gain access to vivid visions and memories associated with the target, revealing its deepest secrets and mysteries. You keep these memories for up to 10 minutes and they can be used to detect traps, poisons, curses, and other hidden dangers. This cannot be used in combat."
+    },
+    "sherlock.elementary": {
+      "name": "Elementary",
+      "level": 5,
+      "activationCost": "1 action",
+      "duration": "10 minutes",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your heightened senses and deductive reasoning to come to a solution with perfect accuracy. You gain Double Advantage on all Perception checks. This means that any information the character is seeking is found with even the smallest clues."
+    },
+    "sherlock.villain": {
+      "name": "Villain",
+      "level": 5,
+      "activationCost": "1 Action",
+      "duration": "10 minute",
+      "range": "Self",
+      "uses": "Once per day Become the",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can transform into a villainous persona. While in this form, you have Double Advantage on all Speech checks. In addition, your physique changes to appear more intimidating and your voice deepens. You also gain temporary Hit Points equal to your Powers in Sherlock + your Intelligence.The effects and temporary Hit Points last until this power ends."
+    }
+  }
+}

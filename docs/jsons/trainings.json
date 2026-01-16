@@ -1,0 +1,315 @@
+[
+  {
+    "id": "training.aviator_school",
+    "name": "Aviator School",
+    "description": "Trains pilots in high-speed tactics, navigation, and evasion.",
+    "armorRating": 11,
+    "initiative": 1,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Control",
+        "attribute": "Dexterity",
+        "skill": "Operator",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Operator skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Operator skill DCs"] }
+        ]
+      },
+      {
+        "name": "Astronavigation",
+        "attribute": "Dexterity",
+        "skill": "Navigation",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Navigation skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Navigation skill DCs"] }
+        ]
+      },
+      {
+        "name": "Repo",
+        "attribute": "Dexterity",
+        "skill": "Hijack",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Hijack skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Hijack skill DCs"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "training.cultural_studies",
+    "name": "Cultural Studies",
+    "description": "For those who aim to understand, preserve, and influence culture.",
+    "armorRating": 11,
+    "initiative": 0,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Fine Arts",
+        "attribute": "Charisma",
+        "skill": "Artist",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Artist skill DCs"] },
+          { "level": 3, "effects": ["+1 Charisma"] },
+          { "level": 5, "effects": ["+5 to Artist skill DCs"] }
+        ]
+      },
+      {
+        "name": "Chronologist",
+        "attribute": "Intelligence",
+        "skill": "History",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to History skill DCs"] },
+          { "level": 3, "effects": ["+1 Intelligence"] },
+          { "level": 5, "effects": ["+5 to History skill DCs"] }
+        ]
+      },
+      {
+        "name": "Religion",
+        "attribute": "Intelligence",
+        "skill": "Religion",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Religion skill DCs"] },
+          { "level": 3, "effects": ["+1 Intelligence"] },
+          { "level": 5, "effects": ["+5 to Religion skill DCs"] }
+        ]
+      },
+      {
+        "name": "Food & Safety",
+        "attribute": "Constitution",
+        "skill": "Nutrition",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Nutrition skill DCs"] },
+          { "level": 3, "effects": ["+1 Constitution"] },
+          { "level": 5, "effects": ["+5 to Nutrition skill DCs"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "training.interpersonal_studies",
+    "name": "Interpersonal Studies",
+    "description": "Hones speech, negotiation, and influence.",
+    "armorRating": 11,
+    "initiative": 1,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Bureaucracy",
+        "attribute": "Intelligence",
+        "skill": "Bureaucracy",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Bureaucracy skill DCs"] },
+          { "level": 3, "effects": ["+1 Intelligence"] },
+          { "level": 5, "effects": ["+5 to Bureaucracy skill DCs"] }
+        ]
+      },
+      {
+        "name": "Business",
+        "attribute": "Wisdom",
+        "skill": "Business",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Business skill DCs"] },
+          { "level": 3, "effects": ["+1 Wisdom"] },
+          { "level": 5, "effects": ["+5 to Business skill DCs"] }
+        ]
+      },
+      {
+        "name": "Public Speaking",
+        "attribute": "Charisma",
+        "skill": "Speech",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Speech skill DCs"] },
+          { "level": 3, "effects": ["+1 Charisma"] },
+          { "level": 5, "effects": ["+5 to Speech skill DCs"] }
+        ]
+      },
+      {
+        "name": "Psychology",
+        "attribute": "Charisma",
+        "skill": "Gambling",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Gambling skill DCs"] },
+          { "level": 3, "effects": ["+1 Charisma"] },
+          { "level": 5, "effects": ["+5 to Gambling skill DCs"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "training.military_trained",
+    "name": "Military Trained",
+    "description": "Prepares soldiers for battlefield and covert operations.",
+    "armorRating": 12,
+    "initiative": 2,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Infiltration",
+        "attribute": "Dexterity",
+        "skill": "Stealth",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Stealth skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Stealth skill DCs"] }
+        ]
+      },
+      {
+        "name": "Infantry",
+        "attribute": "Dexterity",
+        "skill": "Gunning",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Gunning skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Gunning skill DCs"] }
+        ]
+      },
+      {
+        "name": "Scout",
+        "attribute": "Wisdom",
+        "skill": "Perception",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Perception skill DCs"] },
+          { "level": 3, "effects": ["+1 Wisdom"] },
+          { "level": 5, "effects": ["+5 to Perception skill DCs"] }
+        ]
+      },
+      {
+        "name": "Sniper",
+        "attribute": "Dexterity",
+        "skill": "Called Shot",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Called Shot skill DCs"] },
+          { "level": 3, "effects": ["+1 Dexterity"] },
+          { "level": 5, "effects": ["+5 to Called Shot skill DCs"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "training.collegiate_athlete",
+    "name": "Collegiate Athlete",
+    "description": "Produces elite physical performers and competitors.",
+    "armorRating": 12,
+    "initiative": 2,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Team Sport",
+        "attribute": "Constitution",
+        "skill": "Athlete",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Athlete skill DCs"] },
+          { "level": 3, "effects": ["+1 Constitution"] },
+          { "level": 5, "effects": ["+5 to Athlete skill DCs"] }
+        ]
+      },
+      {
+        "name": "Sword, Staff, Joust",
+        "attribute": "Constitution",
+        "skill": "Melee",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Melee skill DCs"] },
+          { "level": 3, "effects": ["+1 Constitution"] },
+          { "level": 5, "effects": ["+5 to Melee skill DCs"] }
+        ]
+      },
+      {
+        "name": "Boxing, Wrestling",
+        "attribute": "Constitution",
+        "skill": "Unarmed",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Unarmed skill DCs"] },
+          { "level": 3, "effects": ["+1 Constitution"] },
+          { "level": 5, "effects": ["+5 to Unarmed skill DCs"] }
+        ]
+      },
+      {
+        "name": "Fraternity",
+        "attribute": "Wisdom",
+        "skill": "Street",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Street skill DCs"] },
+          { "level": 3, "effects": ["+1 Wisdom"] },
+          { "level": 5, "effects": ["+5 to Street skill DCs"] }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "training.scientific_academy",
+    "name": "Scientific Academy",
+    "description": "Where logic, experimentation, and research are honed.",
+    "armorRating": 11,
+    "initiative": 0,
+    "hitPoints": 8,
+    "majors": [
+      {
+        "name": "Hardware Engineer",
+        "attribute": "Intelligence",
+        "skill": "Technology",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Technology skill DCs"] },
+          { "level": 3, "effects": ["+1 Intelligence"] },
+          { "level": 5, "effects": ["+5 to Technology skill DCs"] }
+        ]
+      },
+      {
+        "name": "Mechanical Engineer",
+        "attribute": "Wisdom",
+        "skill": "Mechanics",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Mechanics skill DCs"] },
+          { "level": 3, "effects": ["+1 Wisdom"] },
+          { "level": 5, "effects": ["+5 to Mechanics skill DCs"] }
+        ]
+      },
+      {
+        "name": "General Science",
+        "attribute": "Intelligence",
+        "skill": "Science",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Science skill DCs"] },
+          { "level": 3, "effects": ["+1 Intelligence"] },
+          { "level": 5, "effects": ["+5 to Science skill DCs"] }
+        ]
+      },
+      {
+        "name": "Health",
+        "attribute": "Wisdom",
+        "skill": "Medical",
+        "prerequisites": [],
+        "progression": [
+          { "level": 1, "effects": ["+2 to Medical skill DCs"] },
+          { "level": 3, "effects": ["+1 Wisdom"] },
+          { "level": 5, "effects": ["+5 to Medical skill DCs"] }
+        ]
+      }
+    ]
+  }
+]

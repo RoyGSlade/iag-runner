@@ -1,0 +1,285 @@
+{
+  "school": "Burn Control",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "burn_control.heat_resistant": {
+      "name": "Heat Resistant",
+      "level": 1,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "N/A",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You are now Resistant to Thermal Damage, taking half damage rounded down whenever you take Thermal Damage, including damage dealt to yourself."
+    },
+    "burn_control.hot_shot": {
+      "name": "Hot Shot",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "30 ft",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now create balls of fire and throw them as a Ranged Attack, dealing 1d6 of Thermal Damage. However, you also take 2 Thermal Damage when using this Power."
+    },
+    "burn_control.handle": {
+      "name": "Handle",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "Until Deactivated",
+      "range": "Self",
+      "uses": "Twice per day Hot to",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your entire body can catch on fire, providing a bonus of +2 to your Armor Rating (AR) and dealing 1d4 Thermal damage to anyone who makes an Unarmed or Melee attack against you. Additionally, while this power is active, you gain a bonus to the roll required to Restrain someone or avoid being Restrained equal to the number of powers you have in Burn Control. If you successfully Restrained someone while this power is active, they take 1d4 Thermal damage at the start of each round while Restrained. However, this power deals 2 Thermal Damage to you and your armor takes 2 Thermal Damage for every round or 3 seconds it is active. While active, you also ignite flammable objects you touch and deal 1d4 Thermal damage every 3 seconds to other objects you touch or hold. This power takes an action to activate in combat and an action to deactivate."
+    },
+    "burn_control.fire_fall": {
+      "name": "Fire Fall",
+      "level": 1,
+      "activationCost": "1 Reaction (Combat); At Will (Non- Combat)",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your fire to slow your fall, mitigating fall damage. When falling from 60 ft or higher, you slow your descent, taking half damage and gaining advantage on your Constitution Challenge. When falling from anything lower than 60 ft, you take no damage at all."
+    },
+    "burn_control.burst": {
+      "name": "Burst",
+      "level": 2,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "5 ft radius for every power you have in Burn Control centered on yourself",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You make a target within 30 ft suffer a small brain hemorrhage causing 1d12 damage + Intelligence."
+    },
+    "burn_control.consume": {
+      "name": "Consume",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "15 ft",
+      "uses": "Equal to your powers of Burn Control you have/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can absorb fire that you made with I Have No Matches or didn’t create yourself to regain health. You regain 2 hp per every 5 ft of fire you absorb rounded down. This increases to 4 when you unlock Heat Vampirism. You can also absorb fire off of allies within range if they are Ignited. This removes the Ignited Status. Any enemy can use their reaction to target you for an attack when you use this power."
+    },
+    "burn_control.thermal_vision": {
+      "name": "Thermal Vision",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Until Deactivated",
+      "range": "Self",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now sense and see heat signatures. You can sense the direction of a heat signature and you can make out shapes through one layer of objects. While in use this removes your normal vision giving you -2 on any perception rolls involving sight while active. This takes 1 action to activate and deactivate in combat."
+    },
+    "burn_control.superheat": {
+      "name": "Superheat",
+      "level": 3,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "Touch, 60 ft if you have Thermal Vision and I Have No Matches",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now Heat Metals you touch to the melting point. If someone is touching the metal they take 1d10 thermal damage and if they’re holding it they drop it. You also take 4 thermal damage. If you have Thermal Vision and I Have No Matches you no longer take damage from this power."
+    },
+    "burn_control.energy_source": {
+      "name": "Energy Source",
+      "level": 3,
+      "activationCost": "At Will (Non-Combat)",
+      "duration": "10 minutes x powers you have unlocked in Burn Control",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can be used as a temporary replacement for any fuel or energy source. You can handle this strain only for a short duration. After which you’ll need to take an immediate rest as long as the amount of time you were used as a fuel or energy source x 2."
+    },
+    "burn_control.engulf": {
+      "name": "Engulf",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "60 ft within Sight",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can select a target and completely engulf them in fire dealing 1d8 of thermal damage per power of Burn Control you have unlocked/3. This also gives them the Ignited Status. You take 4 thermal Damage."
+    },
+    "burn_control.blast": {
+      "name": "Blast",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "60 ft within Sight",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can select a target and completely engulf them in fire dealing 1d8 of thermal damage per power of Burn Control you have unlocked/3. This also gives them the Ignited Status. You take 4 thermal Damage."
+    },
+    "burn_control.heat_vampirism": {
+      "name": "Heat Vampirism",
+      "level": 4,
+      "activationCost": "1 action or 3 seconds",
+      "duration": "As long as you have the target restrained",
+      "range": "Touch",
+      "uses": "Equal to your powers in Burn Control/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now even pull the heat from living beings to regain HP. The target must be Restrained. While having a target Restrained you can take an action to deal 1d6 of Thermal Damage to the target and you regain HP equal to the damage dealt. This can be used only once a turn. Outside of combat it will be every 3 seconds you have someone restrained."
+    },
+    "burn_control.white_fire": {
+      "name": "White Fire",
+      "level": 4,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "N/A",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your flames are now so hot they’re white. This increases the amount of Thermal Damage you deal, increasing the die used for any thermal Damage mentioned in Burn Control. A d4 increases to a d6. A d6 is now a d8. A d8 is now a d10. A d10 is now a d12. A d12 does not change but gets +4 thermal damage per d12 rolled. This also increases damage dealt to yourself by +2."
+    },
+    "burn_control.flight": {
+      "name": "Flight",
+      "level": 4,
+      "activationCost": "1 action",
+      "duration": "30 minutes or until deactivated",
+      "range": "Self",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your powers to take flight for a duration. You have a flying speed of 40ft that increases 5ft for every 4 Power of Burn Control you have. You take 2 thermal damage every 5 minutes in flight. If you have the power Burst you can charge someone dealing 1d8 per 10 ft moved this round by flying. This does not stop your movement. Once activated it remains active for 30 minutes or until deactivated."
+    },
+    "burn_control.phoenix": {
+      "name": "Phoenix",
+      "level": 4,
+      "activationCost": "Death",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Once every three days",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your powers can revive you if you hit 0 HP and die. You come back alive at full HP. You do not gain use of Heat Resistant, Heat Immunity, Consume, Heat Vampirism, or Phoenix for 2 days after using this power. Any damage you take from using powers in Burn Control is doubled until you completely rejuvenate and regain the use of all your powers. If you would be reduced to 0 HP before regaining use of your powers, you die immediately with no life checks or chance to be stabilized. Your own powers consume you."
+    },
+    "burn_control.supernova": {
+      "name": "Supernova",
+      "level": 5,
+      "activationCost": "2 actions",
+      "duration": "Instant",
+      "range": "100 ft radius and 50 ft for half the damage after that centered on yourself",
+      "uses": "Once a week",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now overheat yourself to the point of super exploding. Dealing a d12 of Thermal Damage for every power you have unlocked in Burn Control. You also take 14 Thermal Damage. This disables all of your powers for a day and the use of this power takes a week to regain the use of."
+    },
+    "burn_control.heat_immunity": {
+      "name": "Heat Immunity",
+      "level": 5,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "N/A",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Effect: You are immune to all thermal Damage. You no longer take thermal damage of any kind. This includes damage dealt to yourself."
+    }
+  }
+}

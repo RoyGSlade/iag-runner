@@ -1,0 +1,301 @@
+{
+  "school": "Mind Manipulation",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "mind_manipulation.convulse": {
+      "name": "Convulse",
+      "level": 1,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "50 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can attempt to make a person involuntarily convulse. The target will make a 1d20+ constitution roll against your 1d20+ wisdom roll. If they fail, then they begin to convulse, which makes them fail an action they are attempting. (EX: Making someone hyper-extend their arms or legs or even defecating themselves)."
+    },
+    "mind_manipulation.speech": {
+      "name": "Speech",
+      "level": 1,
+      "activationCost": "1 Action or At Will",
+      "duration": "N/A",
+      "range": "Sight within 1000 ft",
+      "uses": "Unlimited Text to",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can make a target you can see, say 10 words of your choice. This requires an opposed wisdom roll between you and the target. If you succeed, the target speaks the phrase of your choice. If you fail, the ability has no effect, and the target becomes aware that someone has tried to tamper with their mind."
+    },
+    "mind_manipulation.telepathy": {
+      "name": "Telepathy",
+      "level": 1,
+      "activationCost": "1 Action or At Will",
+      "duration": "Instant",
+      "range": "1000 ft",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Mentally communicate a message to a number of willing targets equal to your powers in Mind-Manipulation. If in combat, you may not go over the allotted amount of words given with free speech. Note: The targets cannot respond in any way mentally."
+    },
+    "mind_manipulation.pacify": {
+      "name": "Pacify",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "1 minute",
+      "range": "100 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can target a number of aggressive people equal to the amount of powers you have in Mind-Manipulation. You may pacify these people for one minute, making them neutral towards you and your party. If the targets are attacked by you or your party, this power ends, and they become aggressive again and are aware they were messed with. If you are in combat, they may make an opposed wisdom check against you."
+    },
+    "mind_manipulation.migraine": {
+      "name": "Migraine",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "2 rounds",
+      "range": "Sight within 120 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Give a number of targets equal to the powers you have in Mind-Manipulation disadvantage on intelligence checks and any opposed rolls they make against you."
+    },
+    "mind_manipulation.hemorrhaging": {
+      "name": "Hemorrhaging",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "30 ft",
+      "uses": "Equal to your powers in Mind- Manipulation/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You make a target within 30 ft suffer a small brain hemorrhage causing 1d12 damage + Intelligence."
+    },
+    "mind_manipulation.brain_pulse": {
+      "name": "Brain Pulse",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "60 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can choose a number of targets equal to the number of Powers you have in Mind-Manipulation, and they take 1d8 damage."
+    },
+    "mind_manipulation.forget_me_not": {
+      "name": "Forget Me Not",
+      "level": 3,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "Sight within 150 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can make a number of targets equal to your powers in Mind- Manipulation forget the last 10 minutes. Cannot be used in combat."
+    },
+    "mind_manipulation.mind_trick": {
+      "name": "Mind Trick",
+      "level": 3,
+      "activationCost": "At Will",
+      "duration": "Until command has been completed",
+      "range": "60 ft",
+      "uses": "Equal to your Intelligence per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can force a neutral target to aid you (EX:Hide you, lie, supply etc). You cannot use this in combat."
+    },
+    "mind_manipulation.mindscape": {
+      "name": "Mindscape",
+      "level": 3,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "20 ft",
+      "uses": "Once Per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can probe someone’s mind, letting you read their thoughts and find information. This cannot be used in combat."
+    },
+    "mind_manipulation.deep_thought": {
+      "name": "Deep Thought",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "10 rounds (combat) or 5 minutes (non-combat)",
+      "range": "60 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can increase the scope of your allies and your abilities granting yourself and all allies within range + 5 to any roll they make until the ability ends."
+    },
+    "mind_manipulation.adrenaline_release": {
+      "name": "Adrenaline Release",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "15 minutes",
+      "range": "30 ft radius from you",
+      "uses": "Equal to your powers in Mind- Manipulation/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can target a group of allies, giving those targets 8 temporary hp. The Temporary HP lasts 15 minutes. The temporary HP granted with this power does not stack."
+    },
+    "mind_manipulation.accelerated_perception": {
+      "name": "Accelerated Perception",
+      "level": 4,
+      "activationCost": "2 Actions (Can only be used in combat)",
+      "duration": "Rounds equal to Intelligence",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can increase the speed of your brain allowing you to perceive time as if it were moving at ¼ speed. Add +4 to your armor rating and you take two additional actions per turn. After using this ability you cannot use any other Mind-Manipulation powers for 2 days."
+    },
+    "mind_manipulation.shades": {
+      "name": "Shades",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Until Target dies or all delusions disappear",
+      "range": "120 ft in field of view",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create delusions in a target’s mind that they are scared of. This invokes an opposed wisdom roll; if they succeed against you, you take 1d6 damage and your turn ends, if the target fails you create delusions in the target’s mind that they are afraid of and will always take movement to get away from, if for any reason the target cannot move, they will attack wildly, hitting anyone within 5ft of them. You create a number of Delusions equal to your Intelligence. The delusions have 30 ft of movement. For each delusion that reaches the target, they take 2d6 psychic damage. When a delusion reaches the target the delusion disappears. Every round or 3 seconds one of them doesn’t reach the target, and a random delusion disappears. Only you and the target can see the delusions."
+    },
+    "mind_manipulation.sleep": {
+      "name": "Sleep",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Number of hours equal to your Powers in Mind-Manipulation/4",
+      "range": "300 ft within Sight",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Choose a number of targets equal to your intelligence. This will invoke an opposed wisdom roll between you and your targets. If they succeed they are unaffected by the power, if they fail they immediately fall asleep for a number of hours equal to the duration. These targets cannot be woken up."
+    },
+    "mind_manipulation.heal": {
+      "name": "Heal",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "200 ft within Sight",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Target an ally. Any trauma they have you can force their body to mend it quickly. The target heals back to full HP. You can use no other actions the turn you wish to use this power."
+    },
+    "mind_manipulation.cognition_control": {
+      "name": "Cognition Control",
+      "level": 5,
+      "activationCost": "1 Action",
+      "duration": "1 hour",
+      "range": "Sight",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Choose up to 6 allies you can see and make them immune to being recognized. This keeps them completely hidden for the duration. This is broken if they attack someone or make a large enough scene. This cannot be used in combat."
+    },
+    "mind_manipulation.cognitive_nightmare": {
+      "name": "Cognitive Nightmare",
+      "level": 5,
+      "activationCost": "1 Action",
+      "duration": "1 minute",
+      "range": "Self",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You create a horrifying image of yourself in the minds of everyone who can perceive you. Making all enemies so scared they try to attack you. They have Disadvantage with attacks against you and -4 to all rolls against you."
+    }
+  }
+}

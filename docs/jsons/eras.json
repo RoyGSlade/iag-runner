@@ -1,0 +1,80 @@
+{
+  "version": 1,
+  "content_meta": {
+    "canonical_skills": ["gunning", "melee", "unarmed", "called_shot", "called_strike", "mechanics", "medical", "stealth", "navigation", "hijack"],
+    "weapon_tags": ["ranged", "melee", "primitive", "ballistic", "energy", "thermal", "heavy", "light"]
+  },
+  "eras": [
+    {
+      "id": "prehistoric",
+      "name": "Prehistoric",
+      "description": "A world of survival where technology is limited to stone and bone.",
+      "tech_tier": 0,
+      "tags": ["low_tech", "primitive"],
+      "rules": {
+        "superpowers_allowed": false,
+        "banned_weapon_tags": ["ballistic", "energy", "thermal", "heavy"],
+        "banned_gear_tags": ["cyberware", "powered_armor"],
+        "cost_modifiers": { "weapon": 0.5, "armor": 0.5, "ammo": 999.0 },
+        "scarcity": { "metal": "rare", "medicine": "rare", "food": "common" }
+      },
+      "skill_aliases": { "gunning": "archery", "mechanics": "crafting" },
+      "starting_credits": 0,
+      "starting_packs": [
+        {
+          "id": "tribal_hunter",
+          "name": "Hunter Pack",
+          "items": [
+            { "kind": "weapon", "base_id": "knife", "variation_id": "primitive" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "medieval",
+      "name": "Medieval",
+      "description": "Age of smithing and early mechanical power like waterwheels[cite: 3463, 3480].",
+      "tech_tier": 1,
+      "tags": ["mid_tech", "feudal"],
+      "rules": {
+        "superpowers_allowed": false,
+        "banned_weapon_tags": ["energy", "thermal", "ballistic"],
+        "banned_gear_tags": ["cyberware"],
+        "cost_modifiers": { "weapon": 1.0, "armor": 1.2, "ammo": 5.0 }
+      },
+      "skill_aliases": { "gunning": "crossbows" },
+      "starting_credits": 1000,
+      "starting_packs": [
+        {
+          "id": "squire_kit",
+          "name": "Squire's Gear",
+          "items": [{ "kind": "weapon", "base_id": "knife", "variation_id": "ballistic" }]
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Space Age (USSI)",
+      "description": "Ultra-modern setting with plasma rays and space travel[cite: 3710, 3713].",
+      "tech_tier": 4,
+      "tags": ["high_tech", "space_faring"],
+      "rules": {
+        "superpowers_allowed": true,
+        "banned_weapon_tags": [],
+        "banned_gear_tags": [],
+        "cost_modifiers": { "weapon": 1.0, "armor": 1.0, "ammo": 1.0 }
+      },
+      "skill_aliases": {},
+      "starting_credits": 10000,
+      "starting_packs": [
+        {
+          "id": "bounty_hunter",
+          "name": "Bounty Hunter Start",
+          "items": [
+            { "kind": "weapon", "base_id": "pistol", "variation_id": "photon" }
+          ]
+        }
+      ]
+    }
+  ]
+}

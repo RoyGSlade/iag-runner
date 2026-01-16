@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "weapon_bases": [
+    {
+      "id": "pistol",
+      "name": "Pistol",
+      "slot": "pistol",
+      "hands": 1,
+      "attack_skill": "gunning",
+      "base_cost": 800,
+      "damage": { "dice": "1d6", "type": "piercing" },
+      "range": { "min": 0, "max": 15 },
+      "tags": ["ranged", "light", "ballistic"]
+    },
+    {
+      "id": "rifle",
+      "name": "Rifle",
+      "slot": "rifle",
+      "hands": 2,
+      "attack_skill": "gunning",
+      "base_cost": 5000,
+      "damage": { "dice": "1d10+4", "type": "piercing" },
+      "range": { "min": 0, "max": 45 },
+      "tags": ["ranged", "ballistic"]
+    },
+    {
+      "id": "smg",
+      "name": "SMG",
+      "slot": "smg",
+      "hands": 1,
+      "attack_skill": "gunning",
+      "base_cost": 10000,
+      "damage": { "dice": "2d6+1", "type": "piercing" },
+      "range": { "min": 0, "max": 15 },
+      "tags": ["ranged", "light", "ballistic"]
+    },
+    {
+      "id": "blaster",
+      "name": "Blaster",
+      "slot": "blaster",
+      "hands": 2,
+      "attack_skill": "gunning",
+      "base_cost": 20000,
+      "damage": { "dice": "2d10+4", "type": "energy" },
+      "range": { "min": 0, "max": 12 },
+      "tags": ["ranged", "heavy", "energy"]
+    },
+    {
+      "id": "sniper",
+      "name": "Sniper",
+      "slot": "sniper",
+      "hands": 2,
+      "attack_skill": "called_shot",
+      "base_cost": 30000,
+      "damage": { "dice": "3d10+8", "type": "piercing" },
+      "range": { "min": 10, "max": 1370 },
+      "tags": ["ranged", "heavy", "ballistic"]
+    },
+    {
+      "id": "gatling",
+      "name": "Gatling",
+      "slot": "gatling",
+      "hands": 2,
+      "attack_skill": "gunning",
+      "base_cost": 22000,
+      "damage": { "dice": "8d6+1", "type": "piercing" },
+      "range": { "min": 0, "max": 24 },
+      "tags": ["ranged", "heavy", "ballistic"]
+    },
+    {
+      "id": "knife",
+      "name": "Knife",
+      "slot": "melee",
+      "hands": 1,
+      "attack_skill": "melee",
+      "base_cost": 300,
+      "damage": { "dice": "1d6+2", "type": "slashing" },
+      "range": { "min": 0, "max": 2 },
+      "tags": ["melee", "light", "primitive"]
+    }
+  ],
+  "weapon_variations": [
+    {
+      "id": "laser",
+      "name": "Laser",
+      "cost_delta": 400,
+      "rules": {
+        "allowed_slots": ["pistol", "rifle", "smg", "blaster", "sniper", "gatling"],
+        "modifiers": { "damage_dice_delta": "d4", "damage_type_override": "thermal" }
+      },
+      "tags": ["thermal", "energy"]
+    },
+    {
+      "id": "photon",
+      "name": "Photon",
+      "cost_delta": 2500,
+      "rules": {
+        "allowed_slots": ["pistol", "rifle", "smg", "blaster", "sniper", "gatling"],
+        "modifiers": { "damage_dice_delta": "d6", "damage_type_override": "energy" }
+      },
+      "tags": ["energy"]
+    },
+    {
+      "id": "plasma",
+      "name": "Plasma",
+      "cost_delta": 6000,
+      "rules": {
+        "allowed_slots": ["pistol", "rifle", "smg", "blaster", "sniper", "gatling"],
+        "requires_tags": ["ranged"],
+        "modifiers": { "damage_dice_delta": "d10", "damage_type_override": "thermal" }
+      },
+      "tags": ["thermal", "high_tech"]
+    },
+    {
+      "id": "primitive",
+      "name": "Primitive",
+      "cost_delta": -200,
+      "rules": {
+        "allowed_slots": ["melee"],
+        "forbids_tags": ["energy", "ballistic"],
+        "modifiers": {}
+      },
+      "tags": ["primitive"]
+    }
+  ],
+  "attachments": [
+    {
+      "id": "quality_muzzle",
+      "name": "Quality Muzzle",
+      "cost": 12000,
+      "allowed_slots": ["pistol", "rifle", "smg"],
+      "requires_tags": ["ballistic"],
+      "effects": { "to_hit_bonus": 4 },
+      "tags": ["muzzle"]
+    },
+    {
+      "id": "silencer",
+      "name": "Silencer",
+      "cost": 8000,
+      "allowed_slots": ["pistol", "rifle", "smg"],
+      "effects": { "stealth_on_fire": true },
+      "tags": ["muzzle", "stealth"]
+    },
+    {
+      "id": "laser_scope",
+      "name": "Laser Scope",
+      "cost": 10000,
+      "allowed_slots": ["rifle", "sniper"],
+      "effects": { "called_shot_bonus": 5, "long_range_hit_bonus": 10 },
+      "tags": ["optic"]
+    },
+    {
+      "id": "extended_magazine",
+      "name": "Extended Magazine",
+      "cost": 5000,
+      "requires_tags": ["ballistic"],
+      "effects": { "ammo_capacity_bonus": 2 },
+      "tags": ["magazine"]
+    },
+    {
+      "id": "limiter_remover",
+      "name": "Limiter Remover",
+      "cost": 5000,
+      "requires_tags": ["energy"],
+      "effects": { "recharge_action_reduction": 1 },
+      "tags": ["internal"]
+    }
+  ]
+}

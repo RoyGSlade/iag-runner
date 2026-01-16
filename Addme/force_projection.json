@@ -1,0 +1,301 @@
+{
+  "school": "Force Projection",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "force_projection.force_shield": {
+      "name": "Force Shield",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "1 Round",
+      "range": "Self",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your powers to protect yourself with a forcefield. You gain +1 to AR (Armor Rating) for every power you have in Force Projection/3, and resistance to all damage except physical."
+    },
+    "force_projection.reflect": {
+      "name": "Reflect",
+      "level": 1,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Equal to powers in Force Projection/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Creates a reflective shield around yourself, allowing you to reflect an incoming Kinetic or Ballistic projectile launched at you back at the opponent. It will still use their To Hit roll against their AR (Armor Rating) and use their damage dice if it hits."
+    },
+    "force_projection.gravity_empowerment": {
+      "name": "Gravity Empowerment",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "1 minute",
+      "range": "Self",
+      "uses": "Equal to your powers in Force Projection/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your body becomes light and your legs become strong. You can move double your normal Movement Speed and your Jump distance is tripled."
+    },
+    "force_projection.telekinetic_polarity": {
+      "name": "Telekinetic Polarity",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "Your Movement Speed",
+      "uses": "Equal to powers you have in Force Projection/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Manipulate an object or creature the size of Big or smaller with your powers telekinetically, allowing you to pull or push them in any direction to your Movement Speed."
+    },
+    "force_projection.stun_field": {
+      "name": "Stun Field",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "5 ft radius from you",
+      "uses": "Equal to your powers you have in Force Projection/3 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Generates a shockwave of force that knocks back any opponents in a 5 ft radius of you. When used, everyone hit by this must make a Constitution check of 14 or be Stunned and knocked back 10 ft."
+    },
+    "force_projection.gravity_wave": {
+      "name": "Gravity Wave",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "30 ft radius from you",
+      "uses": "Equal to your powers in Force Projection/5 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Create a force wave all around your body, dealing 3d6 Force Damage to all opponents surrounding you."
+    },
+    "force_projection.storm_surge": {
+      "name": "Storm Surge",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "Rounds equal to your Powers in Force Projection",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Manipulate the air pressure around you and control the air, allowing you to levitate and fly equal to your movement speed."
+    },
+    "force_projection.reverb": {
+      "name": "Reverb",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "20 ft radius within 200 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Create a sound wave of force that creates a 20 ft radius. Anyone in it must make a Constitution check of 17 or be Stunned."
+    },
+    "force_projection.gravity_well": {
+      "name": "Gravity Well",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "15 ft radius within 120 ft",
+      "uses": "Three times a day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Create a gravity well that causes all creatures in the area to take 3d8 force damage and be pulled 10 ft towards the center. Everybody in the target area must make a Constitution Challenge roll of 16. If they Succeed they take half damage and resist being pulled toward the center."
+    },
+    "force_projection.force_dome": {
+      "name": "Force Dome",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "30 minutes or until you lose Concentration",
+      "range": "30 ft Radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your Powers to manifest a dome of indestructible Force. This Dome is immune to all damage types except Physical and stops all types of damage except Physical inside of it. You gain a stack of Concentration and if you drop or lose it this power ends early."
+    },
+    "force_projection.force_blight": {
+      "name": "Force Blight",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instantaneous",
+      "range": "30 ft radius within 120 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can manifest sickness in a remote area. This causes one Sickness of your choice to infect everyone in the radius. Everyone in the radius must make a Constitution challenge roll of 16, if they succeed they don’t gain the Sickness."
+    },
+    "force_projection.sonic_hemorrhage": {
+      "name": "Sonic Hemorrhage",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "200 ft",
+      "uses": "Powers you have in Force Projection/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create a sonic blast of Force Energy you can propel at targets. This deals 2d6 Force Damage and causes the Bleed status."
+    },
+    "force_projection.force_wall": {
+      "name": "Force Wall",
+      "level": 4,
+      "activationCost": "1 Actions and 2 rounds of the Concentration Status",
+      "duration": "1 Day or Until Destroyed",
+      "range": "60 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now create a Solid wall of force 5ft thick, up to 60 ft in any direction from a point within 60 ft of you. The wall stops anything from moving through it and has 100 HP (Hull Points)."
+    },
+    "force_projection.gravity_spike": {
+      "name": "Gravity Spike",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "Cone of 15 ft",
+      "uses": "Your powers in Force Projection/5 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can gather the force of the gravity around you and send it at your opponents, dealing 6d10 Force Damage."
+    },
+    "force_projection.time_bend": {
+      "name": "Time Bend",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "2 rounds/6 seconds",
+      "range": "50 ft radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can bend time removing everyone except you and up to 6 targets of your choice from the turn order for 2 rounds. Everyone removed will rejoin the turn order where they left it."
+    },
+    "force_projection.earthquake": {
+      "name": "Earthquake",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "Instant",
+      "range": "360 ft radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can manipulate the Earth itself allowing you to cause seismic shockwaves. When used this creates a large-scale area of destruction dealing 8d12 Force Damage to anyone in it except you. Everyone in the radius must roll a Constitution Challenge of 18, if they succeed they take half damage, if they fail they are knocked prone."
+    },
+    "force_projection.manipulation": {
+      "name": "Manipulation",
+      "level": 5,
+      "activationCost": "1 Action/3 seconds.",
+      "duration": "Rounds equal to your powers in Force Projection/4",
+      "range": "240 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your powers to manipulate the Force of any living being, allowing you to take full control of their actions on their turns for the duration. At the end of each of their turns, the target makes an Opposed Wisdom roll against you. If they win, this Power ends. You can also use this power to manipulate the energy of any non-living object within range, draining its Force Energy. This allows you to recover 2 uses of any Power you have, except for this Power, and destroys the object you drained the Force Energy from."
+    },
+    "force_projection.light": {
+      "name": "Light",
+      "level": 5,
+      "activationCost": "1 Action/3 seconds.",
+      "duration": "Rounds equal to your Powers in Force Projection and requires two stacks of Concentration",
+      "range": "45 ft Radius from you",
+      "uses": "Once per day Beacon of",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your Powers to become a beacon of light in the darkness. This creates a 45 ft radius of light around you and makes you immune to all Damage for the duration, requiring you to have two stacks of the Concentration status to maintain. While allies are within the light, they gain the Calm status and recover 1d4 Hit Points at the end of each of their respective turns."
+    }
+  }
+}

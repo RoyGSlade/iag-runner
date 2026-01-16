@@ -1,0 +1,384 @@
+[
+  {
+    "name": "Artist",
+    "attribute": "Charisma",
+    "description": "The art of performance, persuasion, and emotional manipulation through creative expression.",
+    "levels": {
+      "1": "Choose 2 art forms; gain advantage on rolls using them.",
+      "2": "Use art as a distraction; audience rolls Wisdom against your roll.",
+      "3": "Viewers must make a check or become fans.",
+      "4": "Manipulate feelings with advantage; contested Wisdom roll.",
+      "5": "Your work earns you favor with those who recognize it."
+    },
+    "id": "artist"
+  },
+  {
+    "name": "Athlete",
+    "attribute": "Constitution",
+    "description": "Peak physical prowess in climbing, jumping, sprinting, and inspiring allies in battle.",
+    "levels": {
+      "1": "Climb speed equals movement speed.",
+      "2": "Double jump height.",
+      "3": "Double sprint speed.",
+      "4": {
+        "description": "+1 to group initiative.",
+        "metadata": {
+          "level": 4,
+          "bonus": "+1",
+          "type": "group_initiative"
+        }
+      },
+      "5": {
+        "description": "+2 to armor rating.",
+        "metadata": {
+          "level": 5,
+          "bonus": "+2",
+          "type": "armor_rating"
+        }
+      }
+    },
+    "id": "athlete"
+  },
+  {
+    "name": "Bureaucracy",
+    "attribute": "Charisma",
+    "description": "The manipulation and mastery of governmental systems and paperwork.",
+    "levels": {
+      "1": "Forge IDs contested by Wisdom checks.",
+      "2": "Serve as a legal representative.",
+      "3": "Find invitations to most government functions.",
+      "4": "Advantage when deceiving police or guards.",
+      "5": "Have a government contact in any civilized area."
+    },
+    "id": "bureaucracy"
+  },
+  {
+    "name": "Business",
+    "attribute": "Charisma",
+    "description": "Knowledge and application of trade, finance, and negotiation.",
+    "levels": {
+      "1": "Earn 10% more on trades.",
+      "2": "Have black market contacts.",
+      "3": "Estimate item value instantly.",
+      "4": "Draft service-for-goods contracts; contestable by skill roll.",
+      "5": "Establish business for 10% sessional profit."
+    },
+    "id": "business"
+  },
+  {
+    "name": "Called Shot",
+    "attribute": "Dexterity",
+    "description": "Targeted ranged attacks aimed at weakening or disabling enemies.",
+    "levels": {
+      "1": "Add Dexterity to ranged weapon damage.",
+      "2": "Gain 1/2 cover when using ranged weapons.",
+      "3": "May legally obtain heavy weapons.",
+      "4": "Cover fire gives enemies disadvantage on attacks.",
+      "5": "Ignore cover when attacking."
+    },
+    "id": "called_shot"
+  },
+  {
+    "name": "Called Strike",
+    "attribute": "Constitution",
+    "description": "Precision melee strikes to control or disable opponents.",
+    "levels": {
+      "1": "Add Constitution to melee/unarmed damage.",
+      "2": "Opponent has disadvantage against you after you hit them.",
+      "3": {
+        "description": "+2 damage with improvised weapons.",
+        "metadata": {
+          "level": 3,
+          "bonus": "+2",
+          "type": "damage"
+        }
+      },
+      "4": {
+        "description": "Thrown improvised weapons have 30ft range and +2 damage.",
+        "metadata": {
+          "level": 4,
+          "bonus": "+2",
+          "type": "damage"
+        }
+      },
+      "5": "Make 2 melee/unarmed attacks per action if one is a Called Strike."
+    },
+    "id": "called_strike"
+  },
+  {
+    "name": "Gambling",
+    "attribute": "Charisma",
+    "description": "Luck manipulation, bluffing, and risk-reward mastery.",
+    "levels": {
+      "1": "Advantage on bluffing.",
+      "2": "Know when a game is rigged.",
+      "3": "Flip a coin on a failed attack roll to potentially crit.",
+      "4": "Advantage on reading intentions.",
+      "5": "Sense danger level of a situation once per day."
+    },
+    "id": "gambling"
+  },
+  {
+    "name": "Gunning",
+    "attribute": "Dexterity",
+    "description": "Combat training with ranged weapons, especially in high-pressure scenarios.",
+    "levels": {
+      "1": "Enemies have disadvantage when shooting at you while sprinting.",
+      "2": "Advantage in close-range firefights.",
+      "3": "Make 2 attacks per action; -5 penalty on 2nd if heavy weapon.",
+      "4": "Advantage on initiative rolls.",
+      "5": "Can stun a target using 2 ranged shots."
+    },
+    "id": "gunning"
+  },
+  {
+    "name": "Hijack",
+    "attribute": "Intelligence",
+    "description": "The art of breaking, entering, and stealing vehicles or valuable tech.",
+    "levels": {
+      "1": "Open basic locks and pick pockets.",
+      "2": "Steal vehicles and disable alarms with advantage.",
+      "3": "Spot high-value items instantly.",
+      "4": "Plan a heist with advantage on infiltration rolls.",
+      "5": "Execute heists with reroll on any 1 failed check."
+    },
+    "id": "hijack"
+  },
+  {
+    "name": "History",
+    "attribute": "Intelligence",
+    "description": "Deep knowledge of past events, factions, and lost technologies.",
+    "levels": {
+      "1": "You never forget past events.",
+      "2": "Know current wars and political factions.",
+      "3": "Recreate historical items.",
+      "4": "Know the location of lost tech.",
+      "5": "Predict future trends based on history."
+    },
+    "id": "history"
+  },
+  {
+    "name": "Mechanics",
+    "attribute": "Wisdom",
+    "description": "Repair and creation of machines and automated systems.",
+    "levels": {
+      "1": "Repair from blueprint without rolling.",
+      "2": "Install common upgrades with no roll.",
+      "3": "Replicate known machines faster.",
+      "4": "Craft unique upgrades with advantage.",
+      "5": "Create entirely new machines with advantage."
+    },
+    "id": "mechanics"
+  },
+  {
+    "name": "Medical",
+    "attribute": "Wisdom",
+    "description": "Diagnosis and treatment of injuries, conditions, and infections.",
+    "levels": {
+      "1": "Heal 1d4 + Wisdom with a kit.",
+      "2": "Stop Bleeding status.",
+      "3": "Heal 1d12 + Wisdom.",
+      "4": "Remove Injured status.",
+      "5": "Reproduce medicines at half cost."
+    },
+    "id": "medical"
+  },
+  {
+    "name": "Melee",
+    "attribute": "Constitution",
+    "description": "Expertise in close-quarters combat with melee weapons, allowing for defense, aggression, and precision strikes.",
+    "levels": {
+      "1": "You have 1/2 cover when wielding a melee weapon within 10ft of an enemy.",
+      "2": "Deflect incoming shots, gaining +3 Armor Rating; costs one reaction while holding a melee weapon.",
+      "3": "Your melee weapon damage is increased by +3.",
+      "4": "Using an action, you can accurately read a target’s Hitpoints.",
+      "5": "Attempt to finish a target below 25% HP with an opposed roll: 1d20 + Dex bonus + Melee level vs 1d20 + Con bonus."
+    },
+    "id": "melee"
+  },
+  {
+    "name": "Nutrition",
+    "attribute": "Constitution",
+    "description": "Mastery over food, health, and dietary effects, letting you enhance meals and grant special bonuses.",
+    "levels": {
+      "1": "Those who eat your food gain +5 movement and immunity to ingested toxins for 12 hours.",
+      "2": "You can cook exotic beasts, granting unique effects based on the animal.",
+      "3": "Sniff out rare ingredients that may give enhancements when cooked.",
+      "4": "Create a signature side dish that grants inspiration once per use.",
+      "5": "Your signature dish grants a special ability to those who eat it."
+    },
+    "id": "nutrition"
+  },
+  {
+    "name": "Navigation",
+    "attribute": "Intelligence",
+    "description": "The science of finding your way in unknown terrain, and making efficient, sometimes impossible, journeys.",
+    "levels": {
+      "1": {
+        "description": "Movement bonus +5.",
+        "metadata": {
+          "level": 1,
+          "bonus": "+5",
+          "type": "movement"
+        }
+      },
+      "2": "Always find a shortcut; 1d20: 1=5%, 20=100%, or halve the travel time.",
+      "3": "Jump directly to planets or always find civilization if not in Space Age.",
+      "4": "Plot perfect course through dangerous terrain, adding Navigation roll to vehicle operator.",
+      "5": "Navigate any foreign terrain without a map."
+    },
+    "id": "navigation"
+  },
+  {
+    "name": "Operator",
+    "attribute": "Dexterity",
+    "description": "Mastery of piloting and maintaining vehicles or ships, making you an ace behind the wheel or controls.",
+    "levels": {
+      "1": "Operate vehicles without a skill check.",
+      "2": "Advantage on stealth with vehicles or ships.",
+      "3": "Spot wear and tear and use solid checklists for vehicle maintenance.",
+      "4": "Advantage on challenging vehicle maneuvers.",
+      "5": "You and your vehicle become one: repair it without a mechanic check (need parts/equipment)."
+    },
+    "id": "operator"
+  },
+  {
+    "name": "Perception",
+    "attribute": "Wisdom",
+    "description": "Heightened awareness and observation, letting you spot details, read people, and sense threats.",
+    "levels": {
+      "1": "Once per day, gain advantage on your next Perception roll.",
+      "2": "Double the distance for sounds and sights; advantage on Perception with optics or hearing.",
+      "3": {
+        "description": "+2 to rolls when inspecting objects or locations.",
+        "metadata": {
+          "level": 3,
+          "bonus": "+2",
+          "type": "rolls_when_inspecting_objects_or_locations"
+        }
+      },
+      "4": "Advantage on reading people’s intent.",
+      "5": "Add Intelligence + Wisdom bonus to Perception checks."
+    },
+    "id": "perception"
+  },
+  {
+    "name": "Religion",
+    "attribute": "Intelligence",
+    "description": "Understanding of religious lore, spiritual influence, and communion with the divine.",
+    "levels": {
+      "1": "Know the basics of two religions.",
+      "2": "Advantage persuading people to forgive using spirituality.",
+      "3": "Meditate for 6 hours to clear toxins or sickness.",
+      "4": "Know of lost religious artifacts; get a clue once per month.",
+      "5": "Communicate with a deity monthly for unique challenges and rewards."
+    },
+    "id": "religion"
+  },
+  {
+    "name": "Science",
+    "attribute": "Intelligence",
+    "description": "Comprehension of scientific fields and their practical, technological, or medical applications.",
+    "levels": {
+      "1": "Gain +2 when studying or inspecting new science topics.",
+      "2": "Advantage identifying new technology.",
+      "3": "Sabotage technology you understand.",
+      "4": "Add a scientific academy to your training and gain its bonuses.",
+      "5": "Apply your Science level to any roll in Technology, Medical, Mechanics, or Nutrition."
+    },
+    "id": "science"
+  },
+  {
+    "name": "Speech",
+    "attribute": "Charisma",
+    "description": "Persuasive, clear, and compelling use of language in any social situation.",
+    "levels": {
+      "1": {
+        "description": "+2 to Speech rolls when persuading someone.",
+        "metadata": {
+          "level": 1,
+          "bonus": "+2",
+          "type": "speech_rolls_when_persuading_someone"
+        }
+      },
+      "2": "Advantage when bribing with Speech.",
+      "3": "Communicate with people who don’t speak your language without disadvantage.",
+      "4": "After a 1-minute conversation, you can assess Intelligence, Wisdom, and Charisma.",
+      "5": {
+        "description": "Give a pre-battle speech to grant 6 allies +1 Armor, +2 to hit, or +3 damage for 8 hours (once per long rest).",
+        "metadata": {
+          "level": 5,
+          "bonus": "+2",
+          "type": "hit"
+        }
+      }
+    },
+    "id": "speech"
+  },
+  {
+    "name": "Stealth",
+    "attribute": "Dexterity",
+    "description": "Remaining unseen, blending into crowds, or vanishing from pursuit.",
+    "levels": {
+      "1": "Advantage to Stealth rolls when alone.",
+      "2": "Hidden in crowds by default.",
+      "3": {
+        "description": "+4 to detect or pickpocket others.",
+        "metadata": {
+          "level": 3,
+          "bonus": "+4",
+          "type": "detect_or_pickpocket_others"
+        }
+      },
+      "4": "Distraction grants party advantage on Stealth rolls.",
+      "5": "In combat with 3+ enemies, use a reaction to give 2 attackers disadvantage against you."
+    },
+    "id": "stealth"
+  },
+  {
+    "name": "Street",
+    "attribute": "Wisdom",
+    "description": "Criminal savvy, underworld contacts, and survival instincts in urban environments.",
+    "levels": {
+      "1": "Spot criminals and their gang affiliations.",
+      "2": "Know when you’re being tailed; advantage tracking trackers.",
+      "3": "Always have an underground contact.",
+      "4": "Can’t be surprised in cities.",
+      "5": "Advantage on attack rolls while in a city."
+    },
+    "id": "street"
+  },
+  {
+    "name": "Technology",
+    "attribute": "Intelligence",
+    "description": "Technical aptitude for programming, digital devices, and mechanical systems.",
+    "levels": {
+      "1": {
+        "description": "Add +2 to any roll involving coding or learning tech.",
+        "metadata": {
+          "level": 1,
+          "bonus": "+2",
+          "type": "any_roll_involving_coding_or_learning_tech"
+        }
+      },
+      "2": "Disable equipment with tools if you understand it.",
+      "3": "Upgrade devices to Splicers/Data Pads (Space Age) or tweak tech for other uses.",
+      "4": "Create blueprints for any tech you have access to.",
+      "5": "Advantage shutting down/dismantling systems on vehicles or crafts."
+    },
+    "id": "technology"
+  },
+  {
+    "name": "Unarmed",
+    "attribute": "Constitution",
+    "description": "Hand-to-hand fighting prowess, grappling, submissions, and battlefield survival.",
+    "levels": {
+      "1": "Advantage on physical contests; unarmed damage 1d4+Constitution.",
+      "2": "Unarmed strikes deal 1d6+Constitution.",
+      "3": "Master submissions: one success can KO a startled target, or two rounds otherwise. Can dispatch KO’d targets instantly.",
+      "4": "While unarmed, gain extra attack (Flick).",
+      "5": "If dropped to 0 HP in combat, regain half HP once/day; after, collapse for 8 hours."
+    },
+    "id": "unarmed"
+  }
+]

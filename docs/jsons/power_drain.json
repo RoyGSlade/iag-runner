@@ -1,0 +1,285 @@
+{
+  "school": "Power Drain",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "power_drain.reserve": {
+      "name": "Reserve",
+      "level": 1,
+      "activationCost": "Free action in combat",
+      "duration": "1 hour",
+      "range": "15 ft",
+      "uses": "Your powers in Power Drain/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can drain power from an object and store the energy for up to 1 hour with Reserve. On your next attack, you can use the drained energy to deal additional damage equal to your powers in Power Drain. You may only have one charge of energy with Reserve at a time. This additional damage cannot be stacked with multiple charges of Reserve, but it can be stacked with damage dealt by other powers you have."
+    },
+    "power_drain.reverberation": {
+      "name": "Reverberation",
+      "level": 1,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "30 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When an enemy strikes you with a melee attack, you may drain a number of Hit Points from them equal to the damage you take. You can then heal a target ally within 30 ft for half the damage dealt by this ability rounded up."
+    },
+    "power_drain.meltdown": {
+      "name": "Meltdown",
+      "level": 1,
+      "activationCost": "All charges of Reserve and 2 actions",
+      "duration": "Instant",
+      "range": "30 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "With Meltdown, you can now use Reserve to hold up to 4 total charges of energy. The original rules for Reserve still apply. While holding more than one charge, you can no longer use your reactions. On your turn, for 2 actions, you may release all charges of Reserve you have stored to deal 1d8 of Energy damage per charge to a target within 30 ft. You can only release charges this way twice per day."
+    },
+    "power_drain.disperse": {
+      "name": "Disperse",
+      "level": 1,
+      "activationCost": "1 Charge of Reserve and 1 Action",
+      "duration": "Instant",
+      "range": "15 ft radius",
+      "uses": "Three times a day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use a charge of Reserve to create an energy pulse. All creatures within the radius must make a Constitution challenge roll against your total powers in Power Drain+6, if they fail they are knocked Prone."
+    },
+    "power_drain.telekinesis": {
+      "name": "Telekinesis",
+      "level": 2,
+      "activationCost": "1 charge of Reserve and 1 Action",
+      "duration": "Instant",
+      "range": "10 ft + 10 ft per power you have in Powerdrain/5",
+      "uses": "Equal to Your Powers in Power drain/2 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use a charge of Reserve to move a Compact object up to 10 ft as an action. For every 5 powers in Power Drain you have, you can increase the size of the object you can move and the distance you can move it by 10 ft. Additionally, you may use this ability for 2 actions in a row to harm someone. Size Damage Range Average 1d6 20 ft 1 die Big 1d8 30ft 2 die Enormous 1d12 40 ft 3 die"
+    },
+    "power_drain.strength_sap": {
+      "name": "Strength Sap",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "1 minute",
+      "range": "30 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can drain an enemy’s energy. The target becomes Drowsy and cannot use any Constitution-related checks or abilities and loses their reaction for the duration."
+    },
+    "power_drain.impulse": {
+      "name": "Impulse",
+      "level": 2,
+      "activationCost": "1 Charge of Reserve and 1 Action",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use a charge of Reserve to reinvigorate yourself, healing you for 1d6 and keeping you awake for an extra 2 hours without making you Drowsy. This also removes the Drowsy status. You can use multiple charges of Reserve to increase the effects of this ability per charge you use. Note: You do not recover your Uses for powers unless you rest."
+    },
+    "power_drain.lock_out": {
+      "name": "Lock Out",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "1 minute per Power you have in Powerdrain",
+      "range": "120 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may give up all other uses of powers you have to counter, absorb, and restrain the use of superpowers from another target individual while this ability is in use. You can only activate this Power when you have no Charges of Reserve Stored and while this power is Active you cannot use any other power in the Powerdrain Super-power."
+    },
+    "power_drain.recharge": {
+      "name": "Recharge",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "15 ft",
+      "uses": "Equal to your powers in Powerdrain/4 per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may transfer energy from a nearby energy source to either you or an ally within 15 ft and fully recharge one of the powers of the targets’ superpower, giving them full uses of that single power again for the day."
+    },
+    "power_drain.drain_wave": {
+      "name": "Drain Wave",
+      "level": 3,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "15 ft radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may cast a wave that drains energy of all objects that it hits, for every energy source hit with this, living or inanimate, you gain one charge of Reserve."
+    },
+    "power_drain.energize": {
+      "name": "Energize",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "Touch",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may transfer energy between two people/objects you are touching. This drains Hit Points from one of the targets you are touching and transfers them to the other. Unwilling living targets make an opposed constitution roll against your wisdom roll. You can only transfer hit points until one target reaches 0 Hit Points or one target reaches max Hit Points. This will break or destroy inanimate targets that reach 0 Hull Points. You cannot gain Hit Points with this power but you can give your own Hit Points away."
+    },
+    "power_drain.power_manipulation": {
+      "name": "Power Manipulation",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "While Targets are within sight and up to 1 hour after they leave your sight",
+      "range": "120 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can choose two targets you can see within 50 ft of you, including yourself, and swap a Power from their Superpower trees that are the same level between them"
+    },
+    "power_drain.hey_quit_that": {
+      "name": "Hey Quit That",
+      "level": 4,
+      "activationCost": "3 Charges of Reserve and 1 Reaction",
+      "duration": "Instant",
+      "range": "200 ft",
+      "uses": "Four times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Counter any Power or Attack that you can see. This will end whatever action was trying to be performed."
+    },
+    "power_drain.energy_blast": {
+      "name": "Energy Blast",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Until target loses their Charge of Reserve",
+      "range": "150 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can now use Reserve as many times as you want and you may have unlimited charges of Reserve. You can target as many allies as you want within 150 ft and per target transfer a Charge of Reserve to them. Double their speed and double their Unarmed Strikes and Melee damage. They keep this buff as long as they hold a Charge of Reserve. They lose a Charge of Reserve at the end of their turn. You can give more Charges of Reserve to target allies that still have at least one Charge of Reserve left, this takes an action on your turn. You can also spend a Charge of Reserve to activate its bonus damage effect when an Ally with a Charge of Reserve deals damage. This lasts as long as one Ally still has a Charge or you take a rest. After the effects wear off you cannot use this Power again for two days.(NOTE: this still uses the rules from Reserve.)"
+    },
+    "power_drain.phoenix_feather": {
+      "name": "Phoenix Feather",
+      "level": 4,
+      "activationCost": "N/A",
+      "duration": "48 hours",
+      "range": "Touch",
+      "uses": "Once per week",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You may transfer life back into a dead organic target. This will take Hit Points from surrounding objects or living things within 30 ft ,starting with the closest thing with Hit Points, until the target’s Hit Points are at max. Anything that has its Hit Points reduced to zero by this power breaks or dies, if it’s a player they fall unconscious. If there aren’t enough Hit Points from nearby objects or living things you will drain your own Hit Points until either the target reaches max Hit Points or you reach zero Hit Points. The target is brought back to life for 48 hours and for those 48 hours can be healed and knocked unconscious like normal. Once the 48 hours are over they die again."
+    },
+    "power_drain.one": {
+      "name": "One",
+      "level": 5,
+      "activationCost": "1 Action",
+      "duration": "1 hour",
+      "range": "200 ft radius",
+      "uses": "Twice per day One for All, All for",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can nullify the use of all super powers within a 200 ft radius, including your own, for 1 hour. Alternatively, you can use this power on a single individual to slowly take their Superpower. It takes 1 hour to steal a level from their superpower tree, starting at level 1. You must wait 8 hours before attempting to steal the next level, or the target will die before the transfer is complete. Once you have stolen all 5 levels from an individual’s Superpower, you gain the level zero power and they no longer have that Superpower. When this is complete, you gain 20 additional points to buy powers and must completely re-buy powers from all Superpower trees you have."
+    },
+    "power_drain.damage_transference": {
+      "name": "Damage Transference",
+      "level": 5,
+      "activationCost": "1 Action or Reaction to Activate and 1 Reaction to use",
+      "duration": "5 minutes",
+      "range": "60 ft radius from you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When you see damage get dealt, you may choose to transfer that damage to a new target you can see within range, making the new target take all the damage and nullifying any damage dealt to the original target."
+    }
+  }
+}

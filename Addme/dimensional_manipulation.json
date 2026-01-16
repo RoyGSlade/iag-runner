@@ -1,0 +1,225 @@
+{
+  "school": "Dimensional Manipulation",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "dimensional_manipulation.wormhole": {
+      "name": "Wormhole",
+      "level": 1,
+      "activationCost": "1 Action/1 Action",
+      "duration": "20 Rounds or 1 Minute/20 Rounds or 1 Minute or until Invert Reality ends",
+      "range": "200 ft/30 ft Square within 100 ft",
+      "uses": "Once per day/Once per Inverted Reality Quantum Tunnel/",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Quantum Tunnel: You can create a stationary portal that allows anyone to travel through it. INVERTED: Wormhole: Anyone attempting to leave the Square will be brought back to its center."
+    },
+    "dimensional_manipulation.reality": {
+      "name": "Reality",
+      "level": 4,
+      "activationCost": "1 Action/",
+      "duration": "10 minutes or until you drop concentration/10 minutes or until Inverted Reality ends",
+      "range": "1 mile radius from you/1 mile radius from yourself",
+      "uses": "Once per day/ Warp Reality/Focus",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Focus Reality: You can bend the laws of physics, effectively altering any physical laws that you desire within range. This Power requires 2 Stacks of Concentration to work and will end if you drop Concentration. INVERTED: Focus Reality: You can enhance any Laws of Physics increasing their effects on reality within range. This can also increase the Duration of Inverted Reality to 10 minutes. If you use it for this purpose you cannot use it for anything else."
+    },
+    "dimensional_manipulation.tempo": {
+      "name": "Tempo",
+      "level": 1,
+      "activationCost": "1 Action/1 Reaction on your turn",
+      "duration": "Instant/Instant",
+      "range": "60 ft in sight/Self",
+      "uses": "Twice a day/Once per Inverted Reality Ultra Resonance/Own",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Ultra Resonance: You can allow a target to take one additional action during their turn. INVERTED: Own Tempo: You can give yourself two additional actions this turn. Using this also takes away your uses of Ultra Resonance for the day."
+    },
+    "dimensional_manipulation.atomic_replacement": {
+      "name": "Atomic Replacement",
+      "level": 1,
+      "activationCost": "1 Action/1 Action",
+      "duration": "10 Minutes or as until you lose Concentration/Until Inverted Reality ends",
+      "range": "15 ft/30 ft",
+      "uses": "Once per day/Once per Inverted Reality Atom Displacement/",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Atomic Displacement: You can change the relative distance of atoms in a target creature or object, effectively shrinking or enlarging the creature or object by 1 size category. It requires an Intelligence challenge of 15 and the object or creature cannot be larger than Average size before the effect. This effect ends if you lose Concentration. INVERTED: Atomic Replacement: You can take away half the atoms of an object to make a carbon copy of it. They are both Half the original size of the object."
+    },
+    "dimensional_manipulation.twice_inverted_reality": {
+      "name": "Twice Inverted Reality",
+      "level": 2,
+      "activationCost": "Your Entire Turn/1 Action",
+      "duration": "Instant/2 Rounds or 6 Seconds",
+      "range": "Self/60 ft",
+      "uses": "Once per day/Once per Inverted Reality Back to the Future/BttF2 Effect: Back to the Future: You can transport yourself 2 rounds back in time, allowing the effects of your actions to take place again instantaneously this uses your entire current turn. You do all of the actions you did your last 2 turns again in this one turn in the same order. INVERTED: BttF2: You transport a target 2 rounds into the future. This takes the person or object out of combat for 2 rounds. After 2 rounds the target reappears exactly where they disappeared from. Activation Cost: 1 Action Duration: 1 Minute Range: Self Uses:",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can invert the effects of any power you have, making it have the opposite effect as it would normally have. You now use the Inverted Reality Versions of your Powers and cannot use the normal versions of them until Inverted Reality ends. The Inverted names and tags are indicated by a / and their effects are indicated by the INVERTED in the effect description. This power does not affect itself."
+    },
+    "dimensional_manipulation.wrap": {
+      "name": "Wrap",
+      "level": 3,
+      "activationCost": "1 Action/1 Action",
+      "duration": "Instant/Instant",
+      "range": "200 ft/5 Miles",
+      "uses": "Twice per day/Once per Inverted Reality Spatial Warp/Spatial",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Spatial Warp: You can cause a target creature or object to be teleported to another location up to 5 miles away. The target cannot take any action while in transit and must immediately make a Wisdom Challenge roll of 15. If they fail they become confused as to their current location and gain the Confused Status. INVERTED: Spatial Wrap: You can teleport a target creature or object to your location. You must have personally seen the target and be able to picture it in your mind. They cannot take any actions while in transit and must immediately make a Wisdom Challenge roll of 15, if they fail they gain the Confused status."
+    },
+    "dimensional_manipulation.space": {
+      "name": "Space",
+      "level": 3,
+      "activationCost": "1 Action requires 2 stacks of Concentration/1 Action",
+      "duration": "1 Minute or until you lose Concentration/Until Inverted Reality ends",
+      "range": "40 ft radius from you/ 80 ft radius from you",
+      "uses": "Once per day/Once per Inverted Reality Space Control/Control",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Space Control: You can control the space around you, preventing enemies from entering within a 40 ft Radius of you. Only those you choose can enter within the radius around you. INVERTED: Control Space: You can create a 80 ft radius around you that prevents enemies from moving closer to the border of the radius. Only those you choose can leave the radius around you."
+    },
+    "dimensional_manipulation.mend": {
+      "name": "Mend",
+      "level": 3,
+      "activationCost": "1 Action/1 Action",
+      "duration": "Instant/Instant",
+      "range": "15 ft radius from you/30 ft radius from you",
+      "uses": "Three times a day/Once per Inverted Reality Reality Clash/Reality",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Reality Clash: You can use your powers on the fabric of reality itself, allowing you to cause an explosion of dimensional energy around you that deals 6d8 force damage. Everyone in range must make a Constitution Challenge roll of 17,if successful they ¼ damage rounded up. INVERTED: Reality Mend: You can use your power of Dimensional Manipulation to fix small details in the fabric of reality. Roll 8d6, this result is a pool of HP that you can spread among any number of People, Creatures, or Objects within 30 ft of you healing them. It takes 5 HP from the pool to repair an object unless it’s a Vehicle or Ship then it recovers HP like normal.",
+      "damage": {
+        "amount": "6d8",
+        "type": "force"
+      }
+    },
+    "dimensional_manipulation.invert_momentum": {
+      "name": "Invert Momentum",
+      "level": 4,
+      "activationCost": "1 action/1 Action",
+      "duration": "3 rounds/Until Inverted Reality ends",
+      "range": "60 ft/60 ft",
+      "uses": "three times a day/Once per Inverted Reality Momentum Manipulation/",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Momentum Manipulation: You can change the direction and speed of a target creature or object, allowing you to propel them in a desired direction and speed up to 30 ft per round. The target can no longer use their movement on their turn for the duration of this power however they can still take actions as normal. INVERTED: Invert Momentum: You can target a person or creature. Anytime they move 5ft in a desired direction they move 10ft the opposite way."
+    },
+    "dimensional_manipulation.carrot": {
+      "name": "Carrot",
+      "level": 4,
+      "activationCost": "1 Action or 1 Reaction/1 Action",
+      "duration": "1 Minute or until you drop Concentration/1 Minute or until Inverted Reality ends",
+      "range": "120 ft/120 ft",
+      "uses": "Once per day/Once per Inverted Reality Ball and Chain/Stick and",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Ball and Chain: You can meld two creature’s or object’s space together, enveloping them both. Any damage, movement, and effect they take are shared between them. They can take actions and reactions independently, however they are still bound together in terms of movement and when one moves the other will move in direct accordance going the same distance in the same direction. INVERTED: Stick and Carrot: You Entangle two creatures or people together. Choose one target and reduce their movement to 0 and increase the other target’s movement by the original amount of the first target’s movement. When one of the targets gets Damaged, heal the other target by half of the damage taken rounded up."
+    },
+    "dimensional_manipulation.existence": {
+      "name": "Existence",
+      "level": 4,
+      "activationCost": "1 Action/1 Action",
+      "duration": "Instant/Until Inverted Reality ends",
+      "range": "200 ft/20 ft",
+      "uses": "Once a day/Once per Inverted Reality Forced Oblivion/Forced",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You force a target creature or object to be teleported to an alternate plane of existence. The creature or object is unable to take any action while in transit and must make a Wisdom Challenge roll of 19, if they fail they become confused as to its current location and gains the Confused status. INVERTED: Forced Existence: You can create a Person or Creature. It exists until Inverted Reality ends. Use help from your Game Master to create the NPC or Creature. The NPC cannot exceed your level. Allocate Skills appropriately for the NPCs level. (NOTE:You can use the Game Master Rules or Manual for this)"
+    },
+    "dimensional_manipulation.separation": {
+      "name": "Separation",
+      "level": 5,
+      "activationCost": "1 Action to activate/1 Action to activate",
+      "duration": "3 Rounds/Until Inverted Reality ends",
+      "range": "Self/200 ft",
+      "uses": "Three times a day/Three times per Inverted Reality Space Compression/Spatial",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Space Compression: You can compress your space so that you appear in two places at once for a brief moment, allowing you to stack action or reactions. Stacking attacks lets you double an attack for only one action. You can double any action this way including powers. Your reactions are also stacked in this fashion for the duration. INVERTED: Spatial Separation: You can split the space of a target within 200 ft of you making them exist twice stacked onto themselves. This doubles all attack rolls and damage rolls against them. It also doubles all statuses and debuffs they would gain until this power ends."
+    },
+    "dimensional_manipulation.dimensional_magnifying": {
+      "name": "Dimensional Magnifying",
+      "level": 5,
+      "activationCost": "1 Action/1 Action",
+      "duration": "1 hour/Until Inverted Reality ends",
+      "range": "200 ft/200 ft",
+      "uses": "Once per day/Once per Inverted Reality Dimensional Sealing/",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Dimensional Sealing: You can create a force bubble around a target that seals off the person or object from any outside damage and effects. This prevents the target from taking any type of action or reaction. They can however still use their movement while inside the bubble. INVERTED: Dimensional Magnifying: You create a Force Bubble around a target that works like a concave fisheye lens of reality that makes it seem like everything is warping in their direction. This makes it to where any attack, ability, or power used within a 40 ft radius of them targets them as well as their intended target/s."
+    }
+  }
+}

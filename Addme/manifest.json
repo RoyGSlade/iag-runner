@@ -1,0 +1,16 @@
+{
+  "files": [
+    "air_manipulation.json",
+    "burn.json",
+    "burn_control.json",
+    "dimensional_manipulation.json",
+    "force_projection.json",
+    "mind.json",
+    "mind_manipulation.json",
+    "power_drain.json",
+    "precognition.json",
+    "sherlock.json",
+    "superspeed.json",
+    "teleportation.json"
+  ]
+}

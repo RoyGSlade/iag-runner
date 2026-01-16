@@ -1,0 +1,302 @@
+{
+  "school": "Air Manipulation",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "air_manipulation.improvised_toss": {
+      "name": "Improvised Toss",
+      "level": 1,
+      "activationCost": "1 action",
+      "duration": "Instant",
+      "range": "40ft",
+      "uses": "twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can pick up an inanimate object weighing no more than 10 lbs and hurl it at a target. The target takes 1d8 additional damage on a hit and half as much if you miss.",
+      "damage": {
+        "amount": "1d8",
+        "type": "additional"
+      }
+    },
+    "air_manipulation.purify": {
+      "name": "Purify",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "10 minutes",
+      "range": "10 ft radius centered on you",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can clear a room of harmful smells or dangerous toxins."
+    },
+    "air_manipulation.fire_fighter": {
+      "name": "Fire Fighter",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "As long as you keep Concentration status",
+      "range": "Self",
+      "uses": "Once per day Running off Effect: You can enhance your speed by producing a gust of air behind you. This doubles your movement speed but requires your full concentration. Activation Cost: 1 Action Duration: Instant Range: 20 Ft radius within 200 ft within sight Uses: equal to your powers in Air Manipulation per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can pull oxygen out of the air and extinguish 20ft of flame in a cylinder."
+    },
+    "air_manipulation.ghost": {
+      "name": "Ghost",
+      "level": 2,
+      "activationCost": "1 Action to Activate and Deactivate",
+      "duration": "10 minutes",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You have advantage on sneaking while using this ability. However, it deals 2 damage to you per minute that it’s in use.",
+      "damage": {
+        "amount": "2"
+      }
+    },
+    "air_manipulation.air_jet": {
+      "name": "Air Jet",
+      "level": 2,
+      "activationCost": "1 action",
+      "duration": "Instant",
+      "range": "20ft",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You fire two compressed shots of air from your hands dealing 2d6 per shot. You can pick a different target for each shot. Your To Hit for each shot must be rolled using your choice of Gunning, Melee, or Unarmed. When using this ability, you must roll a dexterity challenge of 16. If you fail, you are knocked prone and take 2 damage. If you succeed, you are pushed back 10ft and take no damage.",
+      "damage": {
+        "amount": "2"
+      }
+    },
+    "air_manipulation.defense": {
+      "name": "Defense",
+      "level": 2,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "60 ft",
+      "uses": "Three time per day Wave of",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When targeted by a ranged attack, you may block damage equal to your powers in Air Manipulation/2. If you exceed the damage that would be dealt to you, then you deal damage equal to the excess to the individual that targeted you."
+    },
+    "air_manipulation.effect": {
+      "name": "Effect",
+      "level": 3,
+      "activationCost": "1 Action to Activate and Deactivate",
+      "duration": "1 minute or until Deactivated",
+      "range": "self or ally within 60 ft",
+      "uses": "Twice per day Aerial of",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Once active, the area around your target becomes harder to penetrate, giving the target a +4 to their AR (Armor Rating). While this ability is active you gain the Concentration status and you cannot use any other Air Manipulation ability until you choose to end this effect."
+    },
+    "air_manipulation.heavy": {
+      "name": "Heavy",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "10 rounds/30 seconds or until you lose Concentration",
+      "range": "30ft",
+      "uses": "Once per day This is",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Using your concentration, you may slow a target. The target will gain 1 stack of the Concentration Status and their movement speed is halved until the effect ends. You also gain a stack of the Concentration status until the duration is over or you lose the Concentration status."
+    },
+    "air_manipulation.insane_mobility": {
+      "name": "Insane Mobility",
+      "level": 3,
+      "activationCost": "1 Action to Activate",
+      "duration": "1 minute",
+      "range": "Self or Ally within 30 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Your target gains +20 ft of Movement Speed,+3 to AR (Armor Rating), and one additional action per turn. After this ability has ended you are unable to use any of your Air Manipulation powers for one day."
+    },
+    "air_manipulation.buster": {
+      "name": "Buster",
+      "level": 3,
+      "activationCost": "1 Action to Activate or Deactivate",
+      "duration": "10 Minutes",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Once this ability is active your body becomes incorporeal and you’re free to move through walls NOTE(you can not attack or interact with objects while this effect is active). If you have Ghost you also become invisible. After the effect ends, your Hit Points are halved, rounded up."
+    },
+    "air_manipulation.air_drums": {
+      "name": "Air Drums",
+      "level": 4,
+      "activationCost": "2 Actions",
+      "duration": "10 rounds/30 seconds",
+      "range": "Touch",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "While in melee range of a target you can make an attack using Called Shot or Called Strike to rupture a target’s eardrums. If the attack hits the target will be knocked prone, have disadvantage on skill checks, and cannot hear."
+    },
+    "air_manipulation.air_savior": {
+      "name": "Air Savior",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "30 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can instantly stabilize a person whose Hit Points reached zero by concentrating oxygen into their bodies. They still remain unconscious.The target will regain an additional 4 Hit Points on their next rest."
+    },
+    "air_manipulation.uplifting_wind": {
+      "name": "Uplifting Wind",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "10 Minutes or until you drop Concentration",
+      "range": "200 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your power to lift objects up to Enormous size and move them 200 ft. You gain the Concentration status while using this power. You can lift this object 20 ft for each power you have in Air Manipulation/4. Use Falling Objects rules to calculate damage and checks."
+    },
+    "air_manipulation.asphyxiation": {
+      "name": "Asphyxiation",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "Instant",
+      "range": "10 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You focus on a target and pull the oxygen from their body which deals 12d12 damage. This will create an opposed roll between you and your target. You roll d20 + Wisdom + your powers in Air Manipulation/3, they roll a d20 + Constitution. If they fail they take the total damage, if they succeed they take one quarter of the damage rounded to the highest whole number.",
+      "damage": {
+        "amount": "12d12"
+      }
+    },
+    "air_manipulation.atmospheric_lungs": {
+      "name": "Atmospheric Lungs",
+      "level": 4,
+      "activationCost": "1 Action",
+      "duration": "N/A",
+      "range": "25 ft",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can choose up to 5 targets. Each target must make an opposed Constitution roll against your Wisdom roll + your powers in Air Manipulation/3. If they fail they are blown back 50 ft and take 3d10 + your Wisdom in damage. If they Succeed they are pushed back 20 ft and take no damage."
+    },
+    "air_manipulation.imprisonment": {
+      "name": "Imprisonment",
+      "level": 5,
+      "activationCost": "1 Action to Activate",
+      "duration": "1 hour for every power you have in Air Manipulation",
+      "range": "30 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create an unbreakable cage of air to hold a target that is Restrained of size Big or smaller. You will have the Concentration status while this is Active. The cage is invulnerable; no attack or damage can penetrate it, protecting whoever is trapped inside and protecting those guarding it from whoever is inside."
+    },
+    "air_manipulation.freezer": {
+      "name": "Freezer",
+      "level": 5,
+      "activationCost": "1 Action to Activate",
+      "duration": "20 rounds/1 minute or until you end the effect",
+      "range": "20 ft Cube within 60 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can change the temperature of air in an area to extreme cold. Anyone in the cube when you make it takes 3d6 Thermal damage and loses their reactions. For every round they are within the cube, they take an additional 2d6 Thermal damage and gain a level of the Cold status. The cube lasts for 1 minute or until you end the effect. You can enter the cube without taking damage. After the effect is over you cannot use any Superpowers in Air Manipulation for a day.",
+      "damage": {
+        "amount": "3d6",
+        "type": "thermal"
+      }
+    }
+  }
+}

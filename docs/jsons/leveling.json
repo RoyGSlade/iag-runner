@@ -1,0 +1,216 @@
+[
+  {
+    "level": 1,
+    "totalSkillLevels": 0,
+    "powerPoints": 2,
+    "hp": true,
+    "actions": "1A 1R",
+    "profession": 1
+  },
+  {
+    "level": 2,
+    "totalSkillLevels": 8,
+    "powerPoints": 4,
+    "attribute": 1,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 3,
+    "totalSkillLevels": 12,
+    "powerPoints": 6,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 4,
+    "totalSkillLevels": 16,
+    "powerPoints": 8,
+    "hp": true,
+    "attribute": 1,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 5,
+    "totalSkillLevels": 20,
+    "powerPoints": 10,
+    "profession": 2,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 6,
+    "totalSkillLevels": 24,
+    "powerPoints": 12,
+    "attribute": 1,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 7,
+    "totalSkillLevels": 28,
+    "powerPoints": 14,
+    "training": true,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 8,
+    "totalSkillLevels": 32,
+    "powerPoints": 16,
+    "hp": true,
+    "attribute": 1,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 9,
+    "totalSkillLevels": 36,
+    "powerPoints": 18,
+    "attribute": 1,
+    "actions": "1A 1R"
+  },
+  {
+    "level": 10,
+    "totalSkillLevels": 40,
+    "powerPoints": 20,
+    "attribute": 1,
+    "profession": 3,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 11,
+    "totalSkillLevels": 44,
+    "powerPoints": 22,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 12,
+    "totalSkillLevels": 48,
+    "powerPoints": 24,
+    "hp": true,
+    "attribute": 1,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 13,
+    "totalSkillLevels": 52,
+    "powerPoints": 26,
+    "attribute": 1,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 14,
+    "totalSkillLevels": 56,
+    "powerPoints": 28,
+    "attribute": 1,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 15,
+    "totalSkillLevels": 60,
+    "powerPoints": 30,
+    "profession": 4,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 16,
+    "totalSkillLevels": 64,
+    "powerPoints": 32,
+    "hp": true,
+    "attribute": 1,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 17,
+    "totalSkillLevels": 68,
+    "powerPoints": 34,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 18,
+    "totalSkillLevels": 72,
+    "powerPoints": 36,
+    "attribute": 1,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 19,
+    "totalSkillLevels": 76,
+    "powerPoints": 38,
+    "actions": "2A 1R"
+  },
+  {
+    "level": 20,
+    "totalSkillLevels": 80,
+    "powerPoints": 40,
+    "hp": true,
+    "attribute": 1,
+    "profession": 2,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 21,
+    "totalSkillLevels": 84,
+    "powerPoints": 42,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 22,
+    "totalSkillLevels": 88,
+    "powerPoints": 44,
+    "attribute": 1,
+    "training": true,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 23,
+    "totalSkillLevels": 92,
+    "powerPoints": 46,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 24,
+    "totalSkillLevels": 96,
+    "powerPoints": 48,
+    "hp": true,
+    "attribute": 1,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 25,
+    "totalSkillLevels": 100,
+    "powerPoints": 50,
+    "profession": 5,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 26,
+    "totalSkillLevels": 104,
+    "powerPoints": 52,
+    "attribute": 1,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 27,
+    "totalSkillLevels": 108,
+    "powerPoints": 54,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 28,
+    "totalSkillLevels": 112,
+    "powerPoints": 56,
+    "hp": true,
+    "attribute": 1,
+    "training": true,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 29,
+    "totalSkillLevels": 116,
+    "powerPoints": 58,
+    "actions": "3A 1R"
+  },
+  {
+    "level": 30,
+    "totalSkillLevels": 120,
+    "powerPoints": 60,
+    "attribute": 1,
+    "actions": "3A 2R"
+  }
+]

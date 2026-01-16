@@ -1,0 +1,69 @@
+{
+  "jumpsuit": {
+    "id": "jumpsuit",
+    "name": "Standard Jumpsuit",
+    "armorRating": 10,
+    "value": 0,
+    "weight": 1,
+    "rarity": "common",
+    "tags": ["armor", "cloth"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 10, "max": 10 }
+  },
+  "flak_vest": {
+    "id": "flak_vest",
+    "name": "Flak Vest",
+    "armorRating": 12,
+    "value": 20,
+    "weight": 6,
+    "rarity": "uncommon",
+    "tags": ["armor", "ballistic"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 8, "max": 8 }
+  },
+  "basic_clothes": {
+    "id": "basic_clothes",
+    "name": "Basic Clothes",
+    "armorRating": 11,
+    "value": 0,
+    "weight": 1,
+    "rarity": "common",
+    "tags": ["armor", "cloth"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 10, "max": 10 }
+  },
+  "leather_armor": {
+    "id": "leather_armor",
+    "name": "Leather Armor",
+    "armorRating": 12,
+    "value": 25,
+    "weight": 5,
+    "rarity": "common",
+    "tags": ["armor", "leather"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 12, "max": 12 }
+  },
+  "chain_mail": {
+    "id": "chain_mail",
+    "name": "Chain Mail",
+    "armorRating": 14,
+    "value": 40,
+    "weight": 12,
+    "rarity": "rare",
+    "tags": ["armor", "metal"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 20, "max": 20 }
+  },
+  "custom_guard_armor": {
+    "id": "custom_guard_armor",
+    "name": "Custom Guard Armor",
+    "armorRating": 13,
+    "value": 50,
+    "weight": 8,
+    "rarity": "rare",
+    "tags": ["armor", "uniform"],
+    "icon": "icons/placeholder.png",
+    "durability": { "current": 15, "max": 15 },
+    "questItem": true
+  }
+}

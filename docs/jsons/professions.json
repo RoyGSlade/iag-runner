@@ -1,0 +1,174 @@
+[
+  {
+    "id": "astronomer",
+    "name": "Astronomer",
+    "startingCredits": 7500,
+    "passive": "Gain advantage when using a map to locate items",
+    "abilities": {
+      "1": "Always know the direction of north",
+      "2": "Retrace your steps to find the path",
+      "3": "Gain advantage when navigating spacecraft or seacraft",
+      "4": "Gain advantage on dexterity checks in unexplored places",
+      "5": "Once per month, your sense of direction draws you toward fortune"
+    },
+    "description": "Blackridge's observatory scholars read the fractured skies and guide caravans through the Rift, turning starlight into hidden roads to fortune."
+  },
+  {
+    "id": "doctor",
+    "name": "Doctor",
+    "startingCredits": 7500,
+    "passive": "Famed for a signature cure known across Blackridge",
+    "abilities": {
+      "1": "Party members regain double HP when recovering",
+      "2": "Gain advantage when stabilizing unconscious individuals",
+      "3": "Gain advantage when finding cures for familiar people",
+      "4": "Never misdiagnose a patient",
+      "5": "Once per month, find a cure without a roll"
+    },
+    "description": "In the clinic wards of Blackridge, doctors are revered lifesavers whose breakthroughs keep miners and militia on their feet."
+  },
+  {
+    "id": "creative",
+    "name": "Creative",
+    "startingCredits": 7500,
+    "passive": "A signature style earns renown in Blackridge's artisan quarter",
+    "abilities": {
+      "1": "Art sways emotions; gain advantage on persuasion and deception",
+      "2": "Gain advantage when seeking buyers, venues, or collaborators",
+      "3": "Once per month, gain inspiration for a performance",
+      "4": "Once per month, craft a legendary masterpiece",
+      "5": "Receive exclusive invites and gain a new artistic proficiency"
+    },
+    "description": "Blackridge thrives on creatives whose performances sway guild politics and spark underground movements."
+  },
+  {
+    "id": "software_engineer_mathematician",
+    "name": "Software Engineer / Mathematician",
+    "startingCredits": 10000,
+    "passive": "Gain advantage when crafting algorithms or code",
+    "abilities": {
+      "1": "Make skill rolls with objects without spending actions",
+      "2": "Create and sell functional apps and algorithms",
+      "3": "Gain advantage when identifying issues with puzzles or machines",
+      "4": "Double successes on Intelligence-based skills",
+      "5": "Encode and decode secret messages with math and code"
+    },
+    "description": "Behind Blackridge's data vaults, these tech masters weave algorithms that safeguard secrets and decode ancient tech."
+  },
+  {
+    "id": "engineer",
+    "name": "Engineer",
+    "startingCredits": 10000,
+    "passive": "Engineering credentials grant access to Blackridge corporate labs",
+    "abilities": {
+      "1": "Builds cost half the normal amount",
+      "2": "Patent and sell your own builds",
+      "3": "Armor repairs add an extra d4 armor points",
+      "4": "Gain advantage when crafting a specialized item",
+      "5": "Specialized item builds take half the time and successes"
+    },
+    "description": "From the workshops of Blackridge, engineers forge siege engines and civic marvels that keep the city running."
+  },
+  {
+    "id": "bounty_hunter",
+    "name": "Bounty Hunter",
+    "startingCredits": 15000,
+    "passive": "Detect high-value bounties when entering establishments",
+    "bountyDetectionRoll": "1d20>=19",
+    "abilities": {
+      "1": "Gain advantage when tracking living targets",
+      "2": "Ignore called shot penalties against bounties",
+      "3": "Gain advantage on speech checks with law enforcement",
+      "4": "Immune to stun status",
+      "5": "Rates are doubled and bounty gear costs 25% less"
+    },
+    "description": "Blackridge's bounty hunters prowl alleyways and spacelanes, licensed to haul in the city's most wanted."
+  },
+  {
+    "id": "mechanic",
+    "name": "Mechanic",
+    "startingCredits": 10000,
+    "passive": "Fix any item once per day without parts or tools",
+    "abilities": {
+      "1": "Gain advantage on repairs in high-stakes situations",
+      "2": "Repair rolls may enhance or weaken the item",
+      "3": "Gain advantage when modifying repaired items",
+      "4": "+3 bonus to crafting table rolls",
+      "5": "Take an extra roll on the crafting table once per day"
+    },
+    "description": "Blackridge mechanics resurrect rusted relics and keep the city's convoy fleets rolling."
+  },
+  {
+    "id": "scrapper",
+    "name": "Scrapper",
+    "startingCredits": 8000,
+    "passive": "Scrap without tools and chance to find rare items",
+    "rareItemRoll": "1d20>=19",
+    "abilities": {
+      "1": "Estimate salvage value on sight",
+      "2": "Gain advantage when scrapping",
+      "3": "Smell nearby valuables",
+      "4": "Gain advantage on bartering",
+      "5": "Find cleanup and salvage jobs easily"
+    },
+    "description": "Blackridge scrap yards breed scrappers who turn wreckage into riches and sniff out hidden valuables."
+  },
+  {
+    "id": "miner",
+    "name": "Miner",
+    "startingCredits": 8000,
+    "passive": "Sell raw materials at a 20% premium",
+    "abilities": {
+      "1": "Estimate resource value of terrain by panning",
+      "2": "Gain +1 Constitution from harsh work environments",
+      "3": "Gain advantage when bartering for items or land",
+      "4": "Chance to find treasure while mining",
+      "5": "Always find contracts for mining or logistics"
+    },
+    "treasureRoll": "1d20>=19",
+    "description": "The mines beneath Blackridge spawn miners tough enough to haul ore and lucky enough to strike hidden veins."
+  },
+  {
+    "id": "entrepreneur",
+    "name": "Entrepreneur",
+    "startingCredits": 12000,
+    "passive": "Talk down combatants without disadvantage",
+    "abilities": {
+      "1": "Reduce service costs by 10% for up to ten businesses",
+      "2": "Forge contracts using the crafting table",
+      "3": "Gain advantage during business negotiations",
+      "4": "Maintain contacts in most corporations",
+      "5": "Earn 10% of all marketed business income"
+    },
+    "description": "Entrepreneurs work Blackridge's markets and guild halls, wheeling deals that ripple across the frontier."
+  },
+  {
+    "id": "hustler",
+    "name": "Hustler",
+    "startingCredits": 9000,
+    "passive": "Gain advantage in games of chance and can always double or nothing",
+    "abilities": {
+      "1": "Gain advantage on stealth rolls when plans go sideways",
+      "2": "Drink alcohol without intoxication",
+      "3": "Gain advantage on pickpocketing after playing games",
+      "4": "Always spot other hustlers without rolling",
+      "5": "Insight checks against you have disadvantage"
+    },
+    "description": "Blackridge's gambling dens crown hustlers who read tells and slip past the law."
+  },
+  {
+    "id": "adventurist",
+    "name": "Adventurist",
+    "startingCredits": 12000,
+    "passive": "Once per day, gain advantage on a dexterity check",
+    "abilities": {
+      "1": "Know another's power instinctively",
+      "2": "Reroll any roll once per day",
+      "3": "Ignore dexterity-based disadvantage once per day",
+      "4": "Give your party temporary HP with a pre-battle speech",
+      "5": "Attract high-paying, high-risk job offers"
+    },
+    "speechTempHpRoll": "1d6",
+    "description": "Adventurists roam Blackridge and beyond, chasing relic rumors and rallying crews for perilous expeditions."
+  }
+]

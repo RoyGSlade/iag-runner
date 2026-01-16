@@ -1,0 +1,285 @@
+{
+  "school": "Precognition",
+  "source": {
+    "title": "Infinite Ages Genesis",
+    "file": "public/data/InfiniteAgesGenesis.pdf",
+    "pages": [
+      42,
+      162
+    ]
+  },
+  "powers": {
+    "precognition.divination": {
+      "name": "Divination",
+      "level": 1,
+      "activationCost": "1 minute",
+      "duration": "N/A",
+      "range": "N/A",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can concentrate for a single minute and make a contested wisdom roll against the GM for a vague future vision. If successful, you will get a glimpse of an event that will happen within the next 6 hours, being able to see people, creatures, and important events in the vision."
+    },
+    "precognition.premonition": {
+      "name": "Premonition",
+      "level": 4,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your precognition to sense imminent danger or obstacles before it arises, giving you Advantage on Dexterity rolls in combat."
+    },
+    "precognition.prescience": {
+      "name": "Prescience",
+      "level": 1,
+      "activationCost": "1 Reaction",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use precognition to prepare a defense mechanism against certain attacks. Granting you a +3 bonus to your AR against the next attack made."
+    },
+    "precognition.chain_reaction": {
+      "name": "Chain Reaction",
+      "level": 1,
+      "activationCost": "1 Action",
+      "duration": "N/A",
+      "range": "30 ft radius of you",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can create a range of events that will happen in successions and can try to impose how they will happen in the near future. You can choose up to three targets in range. All of them make Opposed Wisdom Rolls against you. For each one that fails you can force an accident that triggers a domino effect. The domino effect may only involve those who failed the Opposed roll. (EX: All targets fail, Target one trips, shooting target two, who then yells and distracts target three. However, if only two targets fail I can say Target one trips and shoots target two who then turns to look at target one leaving him vulnerable to attack.)"
+    },
+    "precognition.reading_glasses": {
+      "name": "Reading Glasses",
+      "level": 2,
+      "activationCost": "Passive",
+      "duration": "N/A",
+      "range": "Self",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "When you would read new information or data your powers of precognition kick in giving you the information like you already read it. No time passes."
+    },
+    "precognition.foresight": {
+      "name": "Foresight",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "1 minute",
+      "range": "120 ft in field of view",
+      "uses": "equal to your powers in Precognition per day Destiny’s",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can lend your insight and destiny to an ally, granting them a +4 bonus to any one roll. If you have Premonition you may increase this to +8."
+    },
+    "precognition.phantom_slip": {
+      "name": "Phantom Slip",
+      "level": 2,
+      "activationCost": "1 Action",
+      "duration": "2 rounds or 6 seconds",
+      "range": "120 ft in field of view",
+      "uses": "Twice per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your precognition to temporarily throw an opponent in a time loop for 2 rounds. During this time, the target is stunned and cannot take any actions. You may use this ability twice per day. It costs one action to use."
+    },
+    "precognition.destiny_bond": {
+      "name": "Destiny Bond",
+      "level": 3,
+      "activationCost": "1 action",
+      "duration": "2 Minutes",
+      "range": "Self",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can tether a target’s fate to another for the rest of combat, anytime either target takes damage it is split between them both, this damage is split before resistances are applied."
+    },
+    "precognition.time_stutter": {
+      "name": "Time Stutter",
+      "level": 3,
+      "activationCost": "1 action",
+      "duration": "2 rounds or 6 seconds",
+      "range": "30 ft radius area of you",
+      "uses": "Equal to your powers you have in Precognition per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You shunt a group of targets’ ability to predict incoming attacks. They will take -2 to their AR (Armor Rating)."
+    },
+    "precognition.clairvoyance": {
+      "name": "Clairvoyance",
+      "level": 3,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Once every three days",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You are able to unleash a glimpse of the future, this clairvoyance allows you to see any catastrophes or schemes being designed by a malefactor. You can’t use this power again for two days. Cannot be used in combat."
+    },
+    "precognition.haruspication": {
+      "name": "Haruspication",
+      "level": 3,
+      "activationCost": "1 Action",
+      "duration": "3 turns or 9 seconds",
+      "range": "30 ft",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can sense the fate and future of a target. You can create future events for them if they fail an Opposed Wisdom check against you. The future event you determined befalls them. You decide one plausible action for the target to take for each of those three turns."
+    },
+    "precognition.psychic_search": {
+      "name": "Psychic Search",
+      "level": 4,
+      "activationCost": "At Will",
+      "duration": "Instant",
+      "range": "Planet Wide",
+      "uses": "Unlimited",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can use your precognition to locate a person or object that is not immediately close by, allowing you to narrow down an area or a person to within a planet, then continent, then country, then region, and then finally approximate location. This will never tell you the target’s exact location."
+    },
+    "precognition.omniscience": {
+      "name": "Omniscience",
+      "level": 4,
+      "activationCost": "1 Reaction (Combat) At Will (Non- Combat)",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "Three times per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can grant yourself a bonus to any roll you make equal to your powers in precognition."
+    },
+    "precognition.prophecy": {
+      "name": "Prophecy",
+      "level": 4,
+      "activationCost": "At Will",
+      "duration": "Until fulfilled",
+      "range": "N/A",
+      "uses": "N/A",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can hone in on events up to a month ahead and lay out an opportunity that you wish to happen. There are still margins for error and failure within the opportunity. It often gives you a chance at something rare or improbable. This can’t be used again until the prophecy has been fulfilled."
+    },
+    "precognition.peter_tingle": {
+      "name": "Peter Tingle",
+      "level": 4,
+      "activationCost": "At Will when you fail a Skill check",
+      "duration": "Instant",
+      "range": "Self",
+      "uses": "3 times per session",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "Anytime you fail a skill check you may reroll it with a +5."
+    },
+    "precognition.astral_rampage": {
+      "name": "Astral Rampage",
+      "level": 5,
+      "activationCost": "1 reaction when an Ally reaches zero HP",
+      "duration": "Until the end of combat",
+      "range": "Self",
+      "uses": "Once per day",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "If an ally falls unconscious, you can tap into the power of the astral plane to enter an astral rampage. While in this state, you take only half damage, and your total actions and movement are doubled. This ability lasts until the end of combat."
+    },
+    "precognition.quicksave": {
+      "name": "Quicksave",
+      "level": 5,
+      "activationCost": "1 Action (Combat) At Will (Non- Combat)",
+      "duration": "Up to 30 Minutes",
+      "range": "Self",
+      "uses": "Once per session",
+      "source": {
+        "title": "Infinite Ages Genesis",
+        "pages": [
+          42,
+          162
+        ]
+      },
+      "description": "You can perceive into the future and back, being able to observe events 30 minutes ahead of your current time. This ability is limited to once per day, and you can choose not to proceed to observe more of the future or go back. What this entails is allowing you to basically rewind time by up to 30 minutes. Taking back 30 minutes of in-game time as if it never happened. Only your character will know of the events that transpired as if they are seeing possible future events."
+    }
+  }
+}
