@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "note_title": "Memory Recall Review",
+  "note_prefix": "Memory recall logged for GM verification.",
+  "verification_questions": [
+    "Is this recall accurate based on the session notes?",
+    "What should be corrected or added before the player acts on it?",
+    "Does any recalled information require follow-up clarification?"
+  ]
+}
