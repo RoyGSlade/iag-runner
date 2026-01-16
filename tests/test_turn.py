@@ -35,6 +35,15 @@ class FailingLlmClient:
         return "Should not be called."
 
 
+class TrackingNarrationClient(StubLlmClient):
+    def __init__(self):
+        self.narration_calls = []
+
+    def generate_narration(self, narration_request):
+        self.narration_calls.append(narration_request)
+        return "LLM narration."
+
+
 def test_stubbed_intent_deterministic_rolls_and_updates() -> None:
     session_a = SimpleNamespace(
         rng_seed=123,
@@ -502,3 +511,59 @@ def test_retcon_dispute_returns_ooc_summary_and_options() -> None:
     assert result.suggested_actions
     assert "Turn 2" in result.narration
     assert "Rolling summary" in result.narration
+
+
+def test_scene_intro_uses_llm_narration_for_opening() -> None:
+    session = SimpleNamespace(
+        rng_seed=31,
+        metadata_json={
+            "era": "Space",
+            "location": "Test",
+            "roll_index": 0,
+        },
+    )
+    character = SimpleNamespace(attributes_json={})
+    llm_client = TrackingNarrationClient()
+
+    result = execute_turn_for_state(
+        session,
+        character,
+        "",
+        llm_client=llm_client,
+    )
+
+    assert llm_client.narration_calls
+    assert "LLM narration." in result.narration
+    assert session.metadata_json.get("scene_text") == "LLM narration."
+
+
+def test_memory_recall_records_gm_notes() -> None:
+    session = SimpleNamespace(
+        rng_seed=41,
+        metadata_json={
+            "era": "Space",
+            "location": "Test",
+            "roll_index": 0,
+            "session_setup": {
+                "starting_situation": {
+                    "hook": "Recover the lost data shard.",
+                    "npcs": ["Dr. Vance"],
+                }
+            },
+        },
+    )
+    character = SimpleNamespace(attributes_json={})
+    llm_client = TrackingNarrationClient()
+
+    result = execute_turn_for_state(
+        session,
+        character,
+        "What do I know?",
+        llm_client=llm_client,
+    )
+
+    notes = session.metadata_json.get("gm_memory_notes")
+    assert result.outcome["memory_recall"] is True
+    assert isinstance(notes, list)
+    assert notes
+    assert notes[0]["verification_questions"] is not None

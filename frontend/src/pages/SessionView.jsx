@@ -183,11 +183,18 @@ export default function SessionView() {
 
   const handleSuggestedAction = async (action) => {
     if (!action) return;
+    const label = action.label || action.action_type;
+    const suggestedActionPayload = {
+      suggested_action: {
+        action_type: action.action_type,
+        label,
+        payload: action.payload || {}
+      }
+    };
     await submitTurn({
-      playerText: "",
-      actionType: action.action_type,
-      payload: action.payload || {},
-      label: action.label || action.action_type
+      playerText: label,
+      payload: suggestedActionPayload,
+      label
     });
   };
 

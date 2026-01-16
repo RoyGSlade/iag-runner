@@ -1,8 +1,11 @@
 from __future__ import annotations
 
 import hashlib
+import json
 import random
 from dataclasses import dataclass
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import Any, Callable, Iterable
 
 from db import SessionLocal
@@ -198,6 +201,7 @@ def execute_turn(
             thread_creator=_create_thread,
             threads=threads,
             clocks=clocks,
+            payload=payload,
         )
         _maybe_store_ruling(db, result.outcome)
         _update_player_profile(db, session, result.intent)
@@ -221,6 +225,7 @@ def execute_turn_for_state(
     thread_creator: Callable[[dict], dict] | None = None,
     threads: list[Any] | None = None,
     clocks: list[Any] | None = None,
+    payload: dict | None = None,
 ) -> TurnResult:
     llm_client = llm_client or OllamaClient()
     intent_context = _build_intent_context(session, character)
@@ -234,6 +239,8 @@ def execute_turn_for_state(
         return _memory_recall_result(
             session,
             character,
+            player_text,
+            llm_client,
             intent_context,
             debug_info,
             threads or [],
@@ -263,7 +270,7 @@ def execute_turn_for_state(
     try:
         envelope = llm_client.generate_turn_envelope(
             player_text,
-            _build_envelope_context(session),
+            _build_envelope_context(session, payload),
         )
     except Exception as exc:
         debug_info["validation_errors"].append(str(exc))
@@ -320,6 +327,8 @@ def execute_turn_for_state(
         return _memory_recall_result(
             session,
             character,
+            player_text,
+            llm_client,
             intent_context,
             debug_info,
             threads or [],
@@ -798,7 +807,11 @@ def _ensure_scene_text(session: Any, character: Any, llm_client: OllamaClient) -
         text = summary.strip()
         _store_scene_text(session, text)
         return text
-    narration = _fallback_scene_text(session)
+    narration = llm_client.generate_narration(
+        _build_scene_request(session, character)
+    ).strip()
+    if not narration:
+        narration = _fallback_scene_text(session)
     _store_scene_text(session, narration)
     return narration
 
@@ -837,8 +850,10 @@ def _build_session_state(session: Any) -> dict:
     return {"settings": settings if isinstance(settings, dict) else {}}
 
 
-def _build_envelope_context(session: Any) -> dict:
+def _build_envelope_context(session: Any, payload: dict | None) -> dict:
     scene_lock = _extract_scene_lock(session)
+    payload_data = payload if isinstance(payload, dict) else {}
+    suggested_action = payload_data.get("suggested_action")
     return {
         "era": _extract_era_name(session),
         "scene_summary": _shorten_text(scene_lock.get("summary") or _extract_scene_text(session)),
@@ -846,7 +861,52 @@ def _build_envelope_context(session: Any) -> dict:
         "dev_mode_enabled": _build_session_state(session)
         .get("settings", {})
         .get("dev_mode_enabled", False),
+        "suggested_action": suggested_action,
     }
+
+
+_MEMORY_RECALL_CONFIG: dict | None = None
+
+
+def _load_memory_recall_config() -> dict:
+    global _MEMORY_RECALL_CONFIG
+    if _MEMORY_RECALL_CONFIG is not None:
+        return _MEMORY_RECALL_CONFIG
+    repo_root = Path(__file__).resolve().parents[2]
+    config_path = repo_root / "docs" / "jsons" / "memory_recall.json"
+    if not config_path.exists():
+        _MEMORY_RECALL_CONFIG = {}
+        return _MEMORY_RECALL_CONFIG
+    payload = json.loads(config_path.read_text(encoding="utf-8"))
+    _MEMORY_RECALL_CONFIG = payload if isinstance(payload, dict) else {}
+    return _MEMORY_RECALL_CONFIG
+
+
+def _record_memory_recall_note(
+    session: Any,
+    *,
+    player_text: str,
+    recall_summary: dict,
+    verification_questions: list[str],
+    note_title: str | None,
+    note_prefix: str | None,
+) -> None:
+    metadata = session.metadata_json if isinstance(session.metadata_json, dict) else {}
+    notes = metadata.get("gm_memory_notes")
+    if not isinstance(notes, list):
+        notes = []
+    note_entry = {
+        "created_at": datetime.now(timezone.utc).isoformat(),
+        "title": note_title,
+        "note_prefix": note_prefix,
+        "player_text": player_text,
+        "recall_summary": recall_summary,
+        "verification_questions": verification_questions,
+        "verified": False,
+    }
+    notes.append(note_entry)
+    metadata["gm_memory_notes"] = notes
+    session.metadata_json = metadata
 
 
 def _intent_to_turn_intent(intent: Intent) -> TurnIntent:
@@ -1130,6 +1190,8 @@ def _is_memory_recall_request(player_text: str) -> bool:
 def _memory_recall_result(
     session: Any,
     character: Any,
+    player_text: str,
+    llm_client: OllamaClient,
     intent_context: dict,
     debug_info: dict,
     threads: list[Any],
@@ -1144,6 +1206,27 @@ def _memory_recall_result(
     rumors = _collect_rumors(threads, limit=3)
     scene = _extract_scene_lock(session)
     scene_status = scene.get("summary") or "No scene established yet."
+    recall_summary = {
+        "goal": goal,
+        "sender": sender,
+        "facts": facts,
+        "rumors": rumors,
+        "scene": scene,
+    }
+    recall_config = _load_memory_recall_config()
+    verification_questions = recall_config.get("verification_questions")
+    if not isinstance(verification_questions, list):
+        verification_questions = []
+    note_title = recall_config.get("note_title")
+    note_prefix = recall_config.get("note_prefix")
+    _record_memory_recall_note(
+        session,
+        player_text=player_text,
+        recall_summary=recall_summary,
+        verification_questions=verification_questions,
+        note_title=note_title if isinstance(note_title, str) else None,
+        note_prefix=note_prefix if isinstance(note_prefix, str) else None,
+    )
 
     lines = [
         "Out of character: Here's what you currently know:",
@@ -1191,13 +1274,38 @@ def _memory_recall_result(
         "intent": intent.model_dump(),
         "outcome": {"memory_recall": True},
     }
+    narration_request = NarrationRequest(
+        state_summary={
+            "era": _extract_era_name(session),
+            "location": _extract_location(session),
+            "memory_recall": recall_summary,
+        },
+        outcome={
+            "memory_recall": True,
+            "verification_questions": verification_questions,
+        },
+        tone="reflective",
+    )
+    narration = llm_client.generate_narration(narration_request).strip()
+    if not narration:
+        narration = "\n".join(lines)
     return TurnResult(
         intent=intent.model_dump(),
         rolls=[],
-        outcome={"memory_recall": True},
+        outcome={
+            "memory_recall": True,
+            "facts": facts,
+            "rumors": rumors,
+            "summary": lines,
+            "gm_notes": {
+                "title": note_title,
+                "note_prefix": note_prefix,
+                "verification_questions": verification_questions,
+            },
+        },
         state_diff={},
         narration_prompt_context=narration_context,
-        narration="\n".join(lines),
+        narration=narration,
         suggested_actions=suggested_actions,
         needs_clarification=False,
         clarification_question=None,
@@ -2347,4 +2455,3 @@ def _scene_intro_result(
         parsed_intent=debug_info.get("parsed_intent"),
         validation_errors=debug_info.get("validation_errors", []),
     )
-
